@@ -22,6 +22,14 @@ The following text is an example for how censored text will be represented in th
 
     \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
 
+## LaTeX Conventions
+
+- each sentence in the source code is on its own line
+- \P indicates a legal paragraph symbol
+- \S indicates a legal section symbol
+- \hr creates a horizontal rule
+- \xblackout creates a black box around some words
+
 ## See also
 
 - [LaTeX censor](https://ctan.org/pkg/censor)
