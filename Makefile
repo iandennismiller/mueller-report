@@ -2,8 +2,8 @@ all: volume-1.pdf
 
 volume-1.pdf: volume-1.tex
 	latexmk \
-		-output-directory="build" \
 		-pdf \
+		-output-directory="build" \
 		-pdflatex="pdflatex -interaction=nonstopmode" \
 		-use-make \
 		volume-1.tex
@@ -11,5 +11,12 @@ volume-1.pdf: volume-1.tex
 	mv build/volume-1.pdf products
 	latexmk -c
 
+# volume-1.pdf: volume-1.tex
+# 	pdflatex volume-1.tex
+# 	pdflatex volume-1.tex
+# 	pdflatex volume-1.tex
+
 clean:
 	latexmk -CA
+
+.PHONY: products
