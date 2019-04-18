@@ -28,7 +28,11 @@ The following text is an example for how censored text will be represented in th
 - \P indicates a legal paragraph symbol
 - \S indicates a legal section symbol
 - \hr creates a horizontal rule
-- \xblackout creates a black box around some words
+- `\xblackout{lorem ipsum}` creates a black box around some words
+- `\footnote{lorem ipsum}` creates a footnote, but the previous line ends with `%` to prevent newline
+- `\textit{lorem ipsum}` creates italics
+- `\textbf{lorem ipsum}` creates italics
+- `\section{lorem ipsum}` is the top-level heading
 
 ## See also
 
