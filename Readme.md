@@ -38,7 +38,7 @@ This project is an effort to correct those technical limitations by providing a 
 - `\P` indicates a legal paragraph symbol
 - `\S` indicates a legal section symbol
 - `\hr` creates a horizontal rule
-- `\xblackout{lorem ipsum}` creates a black box around some words
+- `\blackout{lorem ipsum}` creates a black box around some words
 - `\footnote{lorem ipsum}` creates a footnote, which must start on its own line
     - the previous line must end with `%` to prevent newline
     - after the comment, the footnote number is noted; e.g. `% 63`
@@ -58,7 +58,7 @@ This project is an effort to correct those technical limitations by providing a 
 The following text is an example for how redacted text will be represented in the working document.
 It is expected that once ongoing matters have resolved, this document will become progressively unredacted.
 
-    \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur
+    \blackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur
         adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
         ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -67,7 +67,23 @@ It is expected that once ongoing matters have resolved, this document will becom
         sunt in culpa qui officia deserunt mollit anim id est laborum.
     }
 
-    \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+Without newlines:
+
+    \blackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+
+Unicode method for headings:
+
+    [████████: Reason for Redaction]
+
+## Automated Text Extraction
+
+The raw PDF obtained from the DOJ was processed with the open source tool `OCRmyPDF`, which uses the open source Tesseract OCR engine to perform optical character recognition upon PDF files.
+
+    ocrmypdf mueller-report.pdf mueller-report-ocr.pdf
+
+The `pdftotext` utility from `poppler` was used to extract all text to a separate file.
+
+    pdftotext mueller-report-ocr.pdf mueller-report-ocr.txt
 
 ## Contributing
 
@@ -85,7 +101,12 @@ An even better way to contribute is to submit corrections to the source code as 
 
 - [Special Counsel's Office](https://www.justice.gov/sco)
 - [2019-04-18 Mueller Report, Redacted](https://www.justice.gov/storage/report.pdf)
+- [XeTex](http://xetex.sourceforge.net/)
 - [LaTeX censor package](https://ctan.org/pkg/censor)
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+- [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF)
+- [Poppler](https://poppler.freedesktop.org/)
+- [LaTeX-Mk](http://latex-mk.sourceforge.net/)
 
 ## License
 
