@@ -6,4 +6,4 @@
 - image on p. 31: coal miners poster
 - image on p. 34: trump facebook account
 - missing italics throughout
-- 
+- fix redacted Harm to Ongoing Matter in table of contents
