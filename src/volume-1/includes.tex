@@ -1,0 +1,45 @@
+% page headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhf[HCE,HCO]{\leftmark}
+\fancyhf[FCE,FCO]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% support Cyrillic
+\usepackage{fontenc}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{russian}
+\setmainfont[Ligatures=TeX]{Times}
+\newfontfamily\cyrillicfont{Times}[Script=Cyrillic]
+
+% no hyphenation
+\hyphenchar\font=-1
+
+% censorship tools
+\usepackage{censor}
+% \periodrlap = 1.6ex
+% \afterperiodlap = 1.2ex
+% \lletterlap = 0.55ex
+% \rletterlap = 0.55ex
+% \afterspacelap = 0.0ex
+
+% enumerate with Roman numerals
+\usepackage{enumerate}
+
+% horizontal rule
+\newcommand{\hr}{\begin{center} \line(1,0){50} \end{center}}
+
+% do not number the sections
+\setcounter{secnumdepth}{0}
+
+% table of contents is clickable
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=black
+}
