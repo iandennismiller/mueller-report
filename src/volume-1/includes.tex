@@ -1,9 +1,8 @@
 % section numbering
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{5}
-\usepackage{chngcntr}
-\counterwithout{paragraph}{subsubsection}
-
+% \usepackage{chngcntr}
+% \counterwithout{paragraph}{subsubsection}
 \renewcommand{\thesection}{\Roman{section}.}
 \renewcommand{\thesubsection}{\Alph{subsection}.}
 \renewcommand{\thesubsubsection}{\arabic{subsubsection}.}
@@ -55,8 +54,8 @@
 
 % table of contents items are dotted
 \usepackage{tocloft}
-\setlength{\cftsecindent}{0pt}
-\setlength{\cftsubsecindent}{0pt}
-\setlength{\cftsubsubsecindent}{0pt}
-\setlength{\cftparaindent}{0pt}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+% \setlength{\cftsecindent}{0pt}
+% \setlength{\cftsubsecindent}{0pt}
+% \setlength{\cftsubsubsecindent}{0pt}
+% \setlength{\cftparaindent}{0pt}
