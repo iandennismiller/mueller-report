@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+
+% page headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhf[HCE,HCO]{\leftmark}
+\fancyhf[FCE,FCO]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% support Cyrillic
+\usepackage{fontenc}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{russian}
+\setmainfont[Ligatures=TeX]{Times}
+\newfontfamily\cyrillicfont{Times}[Script=Cyrillic]
+
+% no hyphenation
+\hyphenchar\font=-1
+
+% censorship tools
+\usepackage{censor}
+% \periodrlap = 1.6ex
+% \afterperiodlap = 1.2ex
+% \lletterlap = 0.55ex
+% \rletterlap = 0.55ex
+% \afterspacelap = 0.0ex
+
+% enumerate with Roman numerals
+\usepackage{enumerate}
+
+% horizontal rule
+\newcommand{\hr}{\begin{center} \line(1,0){50} \end{center}}
+
+% do not number the sections
+\setcounter{secnumdepth}{0}
+
+% table of contents is clickable
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=black
+}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+\Huge
+Report On The Investigation Into Russian Interference In The 2016 Presidential Election
+
+\vspace{10 mm}
+
+\large
+Volume I of II
+
+\vspace{10 mm}
+
+Special Counsel Robert S. Mueller, III
+
+\vspace{10 mm}
+
+\normalsize
+
+\textit{Submitted Pursuant to 28 C.F.R. \S 600.8(c)}
+
+\vspace{20 mm}
+
+Washington, D.C.
+
+\vspace{10 mm}
+
+March 2019
+
+\vspace{10 mm}
+
+\large
+Open Source Edition
+
+https://github.com/iandennismiller/mueller-report
+
+\end{center}
+
+\newpage
+
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+\sloppy
+
+\include{introduction}
+
+\include{executive-summary}
+
+\include{investigation}
+
+\include{active-measures}
+
+\end{document}
