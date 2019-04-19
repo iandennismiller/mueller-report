@@ -22,6 +22,15 @@ The version of the Mueller Report distributed on April 18, 2019 suffers from sev
 
 The following text is an example for how redacted text will be represented in the working document.  It is expected that once ongoing matters have resolved, this document will become progressively unredacted.
 
+    \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+    }
+
     \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
 
 ## LaTeX Conventions
@@ -44,3 +53,9 @@ The following text is an example for how redacted text will be represented in th
 - [Special Counsel's Office](https://www.justice.gov/sco)
 - [2019-04-18 Mueller Report, Redacted](https://www.justice.gov/storage/report.pdf)
 - [LaTeX censor package](https://ctan.org/pkg/censor)
+
+## Todo
+
+- smart quotes
+- match outline glyphs (I, A, 1, a)
+- footnotes, beginning with #33 on page 20.
