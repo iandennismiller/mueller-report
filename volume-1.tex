@@ -1,23 +1,31 @@
 \documentclass[12pt]{article}
 
+% page headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhf[HCE,HCO]{\leftmark}
+\fancyhf[FCE,FCO]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
 % support Cyrillic
-\usepackage{fontspec} % loaded by polyglossia, but included here for transparency
+\usepackage{fontenc}
 \usepackage{polyglossia}
 \setmainlanguage{english}
 \setotherlanguage{russian}
-\setmainfont[Ligatures=TeX]{Times New Roman}
-\newfontfamily\cyrillicfont{Times New Roman}[Script=Cyrillic]
+\setmainfont[Ligatures=TeX]{Times}
+\newfontfamily\cyrillicfont{Times}[Script=Cyrillic]
 
 % no hyphenation
-\usepackage[none]{hyphenat}
-
-% \tolerance=1
-% \emergencystretch=\maxdimen
-% \hyphenpenalty=10000
-% \hbadness=10000
+\hyphenchar\font=-1
 
 % censorship tools
 \usepackage{censor}
+% \periodrlap = 1.6ex
+% \afterperiodlap = 1.2ex
+% \lletterlap = 0.55ex
+% \rletterlap = 0.55ex
+% \afterspacelap = 0.0ex
 
 % enumerate with Roman numerals
 \usepackage{enumerate}
@@ -40,10 +48,44 @@
 
 \begin{document}
 
+\thispagestyle{empty}
+
+\begin{center}
+\Huge
+Report On The Investigation Into Russian Interference In The 2016 Presidential Election
+
+\vspace{10 mm}
+
+\large
+Volume I of II
+
+\vspace{10 mm}
+
+Special Counsel Robert S. Mueller, III
+
+\vspace{10 mm}
+
+\normalsize
+
+\textit{Submitted Pursuant to 28 C.F.R. \S 600.8(c)}
+
+\vspace{20 mm}
+
+Washington, D.C.
+
+\vspace{10 mm}
+
+March 2019
+\end{center}
+
+\newpage
+
 \pagenumbering{roman}
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
+
+\sloppy
 
 \section{Introduction to Volume I}
 
@@ -332,7 +374,7 @@ Appendix D summarizes those referrals.
 To carry out the investigation and prosecution of the matters assigned to him, the Special Counsel assembled a team that at its high point included 19 attorneys-five of whom joined the Office from private practice and 14 on detail or assigned from other Department of Justice components.
 These attorneys were assisted by a filter team of Department lawyers and FBI personnel who screened materials obtained via court process for privileged information before turning those materials over to investigators; a support staff of three paralegals on detail from the Department's Antitrust Division; and an administrative staff of nine responsible for budget, finance, purchasing, human resources, records, facilities, security, information technology, and administrative support.
 The Special Counsel attorneys and support staff were co-located with and worked alongside approximately 40 FBI agents, intelligence analysts, forensic accountants, a paralegal, and professional staff assigned by the FBI to assist the Special Counsel's investigation.
-Those "assigned" FBI employees remained under FBI supervision at all times; the matters on which they assisted were supervised by the Special Counsel.%
+Those "assigned" FBI employees remained under FBI supervision at all times; the matters on which they assisted were supervised by the Special Counsel.% 1
 \footnote{FBI personnel assigned to the Special Counsel's Office were required to adhere to all applicable federal law and all Department and FBI regulations, guidelines, and policies.
 An FBI attorney worked on FBI-related matters for the Office, such as FBI compliance with all FBI policies and procedures, including the FBI's Domestic Investigations and Operations Guide (DIOG).
 That FBI attorney worked under FBI legal supervision, not the Special Counsel's supervision.}
@@ -351,15 +393,15 @@ It contains, in the Office's judgment, that information necessary to account for
 
 \section{Russian ``Active Measures'' Social Media Campaign}
 
-The first form of Russian election influence came principally from the Internet Research Agency, LLC (IRA), a Russian organization funded by Yevgeniy Viktorovich Prigozhin and companies he controlled, including Concord Management and Consulting LLC and Concord Catering (collectively "Concord").%
+The first form of Russian election influence came principally from the Internet Research Agency, LLC (IRA), a Russian organization funded by Yevgeniy Viktorovich Prigozhin and companies he controlled, including Concord Management and Consulting LLC and Concord Catering (collectively "Concord").% 2
 \footnote{The Office is aware of reports that other Russian entities engaged in similar active measures operations targeting the United States.
 Some evidence collected by the Office corroborates those reports, and the Office has shared that evidence with other offices in the Department of Justice and FBI.}
-The IRA conducted social media operations targeted at large U.S. audiences with the goal of sowing discord in the U.S. political system.%
+The IRA conducted social media operations targeted at large U.S. audiences with the goal of sowing discord in the U.S. political system.% 3
 \footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit}
 see also SM-2230634, serial 44 (analysis).
 The FBI case number cited here, and other FBI case numbers identified in the report, should be treated as law enforcement sensitive given the context.
 The report contains additional law enforcement sensitive information.}
-These operations constituted "active measures" (активные мероприятия), a term that typically refers to operations conducted by Russian security services aimed at influencing the course of international affairs.%
+These operations constituted "active measures" (активные мероприятия), a term that typically refers to operations conducted by Russian security services aimed at influencing the course of international affairs.% 4
 \footnote{As discussed in Part V below, the active measures investigation has resulted in criminal charges against 13 individual Russian nationals and three Russian entities, principally for conspiracy to defraud the United States, in violation of 18 U.S.C. § 371.
 See Volume I, Section V.A, infra; Indictment, United States v. Internet Research Agency, et al., 1 :18-cr-32 (D.D.C. Feb. 16, 2018), Doc. 1 ("Internet Research Agency Indictment").}
 
@@ -372,7 +414,7 @@ IRA employees travelled to the United States in mid-2014 on an intelligence-gath
 IRA employees posted derogatory information about a  number of candidates in the 2016 U.S. presidential election.
 By early to mid-2016, IRA operations included supporting the Trump Campaign and disparaging candidate Hillary Clinton.
 The IRA made various expenditures to carry out those activities, including buying political advertisements on social media in the names of U.S. persons and entities.
-Some IRA employees, posing as U.S. persons and without revealing their Russian association, communicated electronically with individuals associated with the Trump Campaign and with other political activists to seek to coordinate political activities, including the staging of political rallies.%
+Some IRA employees, posing as U.S. persons and without revealing their Russian association, communicated electronically with individuals associated with the Trump Campaign and with other political activists to seek to coordinate political activities, including the staging of political rallies.% 5
 \footnote{Internet Research Agency Indictment \S\S 52, 54, 55(a), 56, 74; \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
 The investigation did not identify evidence that any U.S. persons knowingly or intentionally coordinated with the IRA's interference operation.
 
@@ -380,32 +422,108 @@ By the end of the 2016 U.S. election, the IRA had the ability to reach millions 
 Multiple IRA-controlled Facebook groups and Instagram accounts had hundreds of thousands of U.S. participants.
 IRA-controlled Twitter accounts separately had tens of thousands of followers, including multiple U.S. political figures who retweeted IRA-created content.
 In November 2017, a Facebook representative testified that Facebook had identified 470 IRA-controlled Facebook accounts that collectively made 80,000 posts between January 2015 and August 2017.
-Facebook estimated the IRA reached as many as 126 million persons through its Face book accounts.%
+Facebook estimated the IRA reached as many as 126 million persons through its Face book accounts.% 6
 \footnote{Social Media Influence in the 2016 US. Election, Hearing Before the Senate Select Committee on Intelligence, 115th Cong. 13 (11/1/17) (testimony of Colin Stretch, General Counsel of Facebook)
 ("We estimate that roughly 29 million people were served content in their News Feeds directly from the IRA's 80,000 posts over the two years.
 Posts from these Pages were also shared, liked, and followed by people on Facebook, and, as a result, three times more people may have been exposed to a story that originated from the Russian operation.
 Our best estimate is that approximately 126 million people may have been served content from a Page associated with the IRA at some point during the two-year period.").
 The Facebook representative also testified that Facebook had identified 170 Instagram accounts that posted approximately 120,000 pieces of content during that time.
 Facebook did not offer an estimate of the audience reached via Instagram.}
-In January 2018, Twitter announced that it had identified 3,814 IRA-controlled Twitter accounts and notified approximately 1 .4 million people Twitter believed may have been in contact with an iRA-controlled account.%
+In January 2018, Twitter announced that it had identified 3,814 IRA-controlled Twitter accounts and notified approximately 1 .4 million people Twitter believed may have been in contact with an iRA-controlled account.% 7
 \footnote{Twitter, Update on Twitter's Review of the 2016 US Election (Jan. 31, 2018).}
 
 \subsection{Structure of the Internet Research Agency}
 
-\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}%
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 8
 \footnote{See SM-2230634, serial 92.}
-\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}%
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 9
 \footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
-\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}%
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 10
 \footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
 
 The organization quickly grew.
-\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}%
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 11
 \footnote{See SM-2230634, serial 86 \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
-\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}%
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 12
 \footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
 
 The growth of the organization also led to a more detailed organizational structure.
+\xblackout{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}% 13
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+
+Two individuals headed the IRA's management: its general director, Mikhail Bystrov, and its executive director, Mikhail Burchik.
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 14
+\footnote{See, e.g., SM-2230634, serials 9, 113 \& 180 \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 15
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+
+As early as spring of 2014, the IRA began to hids its funding and activities.
+\xblackout{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}% 16
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.} See SM-2230634, serials 131 \& 204.}
+
+The IRA's U.S. operations are part of a larger set of interlocking operations known as ``Project Lakhta,'' \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 17
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 18
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+
+\subsection{Funding and Oversight from Concord and Prigozhin}
+
+Until at least February 2018, Yevgeniy Viktorovich Prigozhin and two Concord companies funded the IRA.
+Prigozhin is a wealthy Russian businessman who served as the head of Concord.
 \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}
+Prigozhin was sanctioned by the U.S. Treasury Deparment in December 2016,% 19
+\footnote{U.S. Treasury Deprutment, "Treasury Sanctions Individuals and Entities in Connection with Russia's Occupation of Crimea and the Conflict in Ukraine" (Dec. 20, 2016).}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 20
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 21
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+Numerous media sources have reported on Prigozhin's ties to Putin, and the two have appeared together in public photographs.% 22
+\footnote{See, e.g., Neil MacFarquhar, Yevgeny Prigozhin, Russian Oligarch Indicted by US., Is Known as "Putin's Cook", New York Times (Feb. 16, 2018).}
+
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 23
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}
+
+
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 24
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 25
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor} see also SM-2230634, serial 113 \xblackout{HOM}}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}
+
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}
+
+
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 26
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 27
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}}
+
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 28
+\footnote{The term "troll" refers to internet users - in this context, paid operatives - who post inflammatory or otherwise disruptive content on social media or other websites. }
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}
+
+IRA employees were aware that Prigozhin was involved in the IRA's U.S. operations, \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 29
+\footnote{\xblackout{Investigative Technique: Lorem ipsum.} See SM-2230634, serials 131 \& 204.}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 30
+\footnote{See SM-2230634, serial 156.}
+In May 2016, IRA employees, claiming to be U.S. social activists and administrators of Facebook groups, recruited U.S. persons to hold signs (including one in front of the White House) that read "Happy 55th Birthday Dear Boss," as an homage to Prigozhin (whose 55th birthday was on June 1, 2016).% 31
+\footnote{Internet Research Agency Indictment \P 12(b); \textit{see also} 5/26/16 Facebook Messages, ID 1479936895656747 (United Muslims of America) \& \xblackout{Personal Privacy: Lorem ipsum}}
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}% 32
+\footnote{\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor} see also SM-2230634, serial 189. \xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}.}
+
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+
+\subsection{The IRA Targets U.S. Elections}
+
+\subsubsection{The IRA Ramps Up U.S. Operations as Early as 2014}
+
+The IRA's U.S. operatiosn sought to influence public opinion through online media and forums.
+By the spring of 2014, the IRA began to consolidate U.S. operations within a single general department, known internally as the ``Translator'' (переводчик) department.
+\xblackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor}
+IRA subdivided the Translator Department into different responsibilities, ranging from operations on different social media platforms to analytics to graphics and IT.
 
 \end{document}
