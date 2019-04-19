@@ -50,6 +50,8 @@ This project is an effort to correct those technical limitations by providing a 
 - `\begin{quote}` indicates a block quote
 - `\begin{enumerate}[i]` produces a list with lowercase roman numerals
     - `\item` is an individual list item
+    - each item is indented with 4 spaces
+    - sentences within an item are separated by newlines and are also indented
 
 ## Redacting template
 
