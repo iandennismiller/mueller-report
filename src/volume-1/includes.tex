@@ -1,7 +1,19 @@
+% section numbering
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\usepackage{chngcntr}
+\counterwithout{paragraph}{subsubsection}
+
+\renewcommand{\thesection}{\Roman{section}.}
+\renewcommand{\thesubsection}{\Alph{subsection}.}
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}.}
+\renewcommand{\theparagraph}{\alph{paragraph}.}
+
 % page headers
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
+\renewcommand{\subsectionmark}[1]{}
 \fancyhf[HCE,HCO]{\leftmark}
 \fancyhf[FCE,FCO]{\thepage}
 \renewcommand{\headrulewidth}{0pt}
@@ -31,9 +43,6 @@
 % horizontal rule
 \newcommand{\hr}{\begin{center} \line(1,0){50} \end{center}}
 
-% do not number the sections
-\setcounter{secnumdepth}{0}
-
 % table of contents is clickable
 \usepackage{hyperref}
 \hypersetup{
@@ -43,3 +52,11 @@
   linkcolor=black,
   urlcolor=black
 }
+
+% table of contents items are dotted
+\usepackage{tocloft}
+\setlength{\cftsecindent}{0pt}
+\setlength{\cftsubsecindent}{0pt}
+\setlength{\cftsubsubsecindent}{0pt}
+\setlength{\cftparaindent}{0pt}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
