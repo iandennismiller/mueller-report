@@ -7,3 +7,4 @@
 - image on p. 34: trump facebook account
 - missing italics throughout
 - fix redacted Harm to Ongoing Matter in table of contents
+- need cross-platform font with good Unicode support
