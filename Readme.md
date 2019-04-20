@@ -29,7 +29,34 @@ This project is an effort to correct those technical limitations by providing a 
 - redactions are represented explicitly in the source code
 - canonical URL with greater permanence than DOJ distribution
 
+## Contributing
+
+The document is written with LaTeX.
+If you know a little bit of LaTeX and you can use GitHub, then you can help with the project.
+
+There are several kinds of helper roles that enable collaborative editing of the document.
+
+Helper roles:
+
+- **copy-paster**: locate a section heading and copy-paste text from the PDF.  The copy-paster should also add blank footnote tags.
+- **footnote adder**: find the `\footnote{}` tags and fill them with content from the PDF
+- **proof reader**: fix typographic errors, spelling, and other mistakes
+- **redacter**: check, add, or unredact `\blackout{}` tags; also adjust length of redacted box to be comparable to the original
+- **LaTeX guru**: tweak `includes.tex` to make the document look and behave like the original
+
+### Starting Work
+
+In order to avoid duplication of work, [please open a github issue](https://github.com/iandennismiller/mueller-report/issues) with the title of the section you are working on and your role for that section.
+Be sure nobody has already created an issue for the role and section you will work on.
+
+### Finishing Work
+
+When you are done with the work, [please submit a pull request](https://github.com/iandennismiller/mueller-report/pulls) to close the issue you opened.
+
 ## Document Source Code Conventions
+
+The document is written with LaTeX.
+The following conventions are used throughout the document.
 
 - each sentence in the source code is on its own line
 - paragraphs are separated by a single blank line (i.e. 2 consecutive newlines)
@@ -38,7 +65,7 @@ This project is an effort to correct those technical limitations by providing a 
 - `\P` indicates a legal paragraph symbol
 - `\S` indicates a legal section symbol
 - `\hr` creates a horizontal rule
-- `\blackout{lorem ipsum}` creates a black box around some words
+- `\blackout{lorem ipsum}` creates a black redacted box around some words
 - `\footnote{lorem ipsum}` creates a footnote, which must start on its own line
     - the previous line must end with `%` to prevent newline
     - after the comment, the footnote number is noted; e.g. `% 63`
@@ -75,9 +102,14 @@ Unicode method for headings:
 
     [████████: Reason for Redaction]
 
+## Un-redacting
+
+This is a living document that will be updated over time.
+As redacted passages are disclosed, the corresponding passages in this source code will be uncensored and the document will be re-rendered.
+
 ## Automated Text Extraction
 
-The raw PDF obtained from the DOJ was processed with the open source tool `OCRmyPDF`, which uses the open source Tesseract OCR engine to perform optical character recognition upon PDF files.
+The raw PDF obtained from the DOJ was processed with the open source tool `OCRmyPDF`, which uses the open source `Tesseract` OCR engine to perform optical character recognition upon PDF files.
 
     ocrmypdf mueller-report.pdf mueller-report-ocr.pdf
 
@@ -85,22 +117,15 @@ The `pdftotext` utility from `poppler` was used to extract all text to a separat
 
     pdftotext mueller-report-ocr.pdf mueller-report-ocr.txt
 
-## Contributing
+These documents are available in the repository:
 
-While this document is in its initial authoring stage, you can help by transcribing the original materials.
-In order to avoid duplication of work, please open a github issue in this project called "contributing" - or send a PM through reddit.
-
-This is a living document that will be updated over time.
-As redacted passages are disclosed, the corresponding passages in this source code will be uncensored and the document will be re-rendered.
-Any inaccuracies produced by the imperfect duplication of the original material must also be corrected.
-
-You can contribute to this document by proof-reading the materials and submitting issues that can help identify the problem.
-An even better way to contribute is to submit corrections to the source code as GitHub pull requests.
+- [mueller-report-ocr.txt](blob/master/data/mueller-report-ocr.txt)
+- [mueller-report-ocr.pdf](blob/master/data/mueller-report-ocr.pdf)
 
 ## See also
 
 - [Special Counsel's Office](https://www.justice.gov/sco)
-- [2019-04-18 Mueller Report, Redacted](https://www.justice.gov/storage/report.pdf)
+- [Mueller Report, Redacted, 2019-04-18](https://www.justice.gov/storage/report.pdf)
 - [XeTex](http://xetex.sourceforge.net/)
 - [LaTeX censor package](https://ctan.org/pkg/censor)
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
