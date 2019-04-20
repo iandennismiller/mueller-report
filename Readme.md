@@ -126,7 +126,6 @@ Also, the fragment ending with "information" ends with a `%` comment, which will
 ## Redacting template
 
 The following text is an example for how redacted text will be represented in the working document.
-It is expected that once ongoing matters have resolved, this document will become progressively unredacted.
 
     \blackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur
         adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -145,10 +144,12 @@ Unicode method for section headings:
 
     [████████: Reason for Redaction]
 
+Redacted passages can be expanded or trimmed to approximate the original redactions.
+
 ## Un-redacting
 
 This is a living document that will be updated over time.
-As redacted passages are disclosed, the corresponding passages in this source code will be uncensored and the document will be re-rendered.
+As redacted passages are disclosed, the corresponding passages in this source code will be uncensored and the documents will be re-rendered.
 
 ## Automated Text Extraction
 
@@ -167,7 +168,11 @@ These documents are available in the repository:
 
 ## Requirements
 
+The document can be rendered with TeX Live and MacTeX.
+
 ### Debian/Ubuntu
+
+Ensure the following packages are installed.
 
     apt install texlive-xetex latexmk
 
