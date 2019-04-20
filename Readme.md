@@ -1,6 +1,6 @@
 # Open Source Mueller Report
 
-https://iandennismiller.github.io/mueller-report/
+- [Website](https://iandennismiller.github.io/mueller-report/)
 
 **Open Source Mueller Report** will be an enhanced edition of the DOJ release in order to support public discussion.
 
@@ -71,6 +71,10 @@ To start working on the document:
 **Important: only work on one role at a time. If you create a pull request that includes multiple roles, it might be impossible to merge your work!**
 
 When you are done with the work, [please submit a pull request](https://github.com/iandennismiller/mueller-report/pulls) to close the issue you opened.
+
+### Discussion
+
+[OpenSourceMueller subreddit](https://old.reddit.com/r/OpenSourceMueller/)
 
 ## Document Source Code Conventions
 
