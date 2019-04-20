@@ -2,7 +2,7 @@
 
 https://iandennismiller.github.io/mueller-report/
 
-**Open Source Mueller Report** will provide an enhanced duplicate of the DOJ release in order to support public discussion.
+**Open Source Mueller Report** will be an enhanced edition of the DOJ release in order to support public discussion.
 
 - [Volume I: Russia](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-1.pdf) **Status: in progress**
 - [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-2.pdf) **Status: not started**
