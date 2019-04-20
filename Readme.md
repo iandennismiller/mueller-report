@@ -175,6 +175,7 @@ These documents are available in the repository:
 - [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF)
 - [Poppler](https://poppler.freedesktop.org/)
 - [LaTeX-Mk](http://latex-mk.sourceforge.net/)
+- [Water.css](https://kognise.github.io/water.css/)
 
 ## License
 
