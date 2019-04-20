@@ -1,6 +1,6 @@
 # Open Source Mueller Report
 
-https://github.com/iandennismiller/mueller-report
+https://iandennismiller.github.io/mueller-report/
 
 The Open Source Mueller Report will provide an enhanced duplicate of the DOJ release in order to support public discussion.
 
