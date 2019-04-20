@@ -100,6 +100,8 @@ The following conventions are used throughout the document.
 - `\paragraph{lorem ipsum}` is the fouth-level heading
 - `\subparagraph{lorem ipsum}` is the fifth-level heading
 - `\begin{quote}` indicates a block quote
+- `\begin{itemize}`
+    - `\item` is an individual list item
 - `\begin{enumerate}[i]` produces a list with lowercase roman numerals
     - `\item` is an individual list item
     - each item is indented with 4 spaces
