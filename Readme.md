@@ -1,9 +1,13 @@
 # Open Source Mueller Report
 
-The open source edition of the 2019 Mueller Report will provide a perfect duplicate of the DOJ release in order to support public discussion.
+https://github.com/iandennismiller/mueller-report
+
+The Open Source Mueller Report will provide an enhanced duplicate of the DOJ release in order to support public discussion.
 
 - [Volume I: Russia](https://github.com/iandennismiller/mueller-report/blob/master/products/mueller-report-vol-1.pdf)
 - [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/products/mueller-report-vol-2.pdf)
+- Appendices
+- Complete Mueller Report: Vol I, Vol II, and Appendices
 
 ## Motivation
 
@@ -15,9 +19,9 @@ For example:
 - passages of text in the DOJ PDF cannot be highlighted or copied-and-pasted
 - the table of contents in the DOJ PDF is not "clickable"
 - the page numbers in the footer do not match the DOJ PDF page numbers
-- the DOJ PDF appears to be derived from a photocopy and consequently there are visual artifacts in the PDF
+- the DOJ PDF appears to be derived from an optically-scanned copy and, consequently, there are visual artifacts in the PDF
 
-This project is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
+The [Open Source Mueller Report project](https://github.com/iandennismiller/mueller-report) is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
 
 ## Features
 
@@ -30,24 +34,39 @@ This project is an effort to correct those technical limitations by providing a 
 - redactions are represented explicitly in the source code
 - canonical URL with greater permanence than DOJ distribution
 
+### Limitations
+
+- page numbers do not correspond to original Mueller document or to DOJ release
+- redacted boxes are interrupted by spaces; they are not continuous
+- redacted boxes, which are based on lorem ipsum text, are suggestive of underlying word length and structure although no information about this is known
+- redacted section headings do not look correct
+- other cosmetic differences
+
 ## Contributing
 
 The document is written with LaTeX.
-If you know a little bit of LaTeX and you can use GitHub, then you can help with the project.
-There are several kinds of helper roles that enable collaborative editing of the document.
+If you know a little bit of LaTeX and you know how to use Github, then you can help with the project.
+There are several kinds of **helper roles** that enable collaborative editing of the document.
 
-Helper roles:
+### Helper roles
 
-- **copy-paster**: locate a section heading and copy-paste text from the PDF.  The copy-paster should also add blank footnote tags.
-- **footnote adder**: find the `\footnote{}` tags and fill them with content from the PDF
+- **copy-paster**: locate a section heading and copy-paste text from the PDF.  The copy-paster should also add [blank footnotes](#footnote-template) and [redactions](#redacting-template).
+- **footnote adder**: find the `\footnote{}` tags and fill them with content from the PDF. Also add [redactions](#redacting-template) where appropriate.
 - **proof reader**: fix typographic errors, spelling, and other mistakes
-- **redacter**: check, add, or unredact `\blackout{}` tags; also adjust length of redacted box to be comparable to the original
-- **LaTeX guru**: tweak `includes.tex` to make the document look and behave like the original
+- **redacter**: adjust or unredact `\blackout{}` tags; also adjust length of redacted box to be comparable to the original
+- **LaTeX guru**: tweak `includes.tex` to make the document look like the original while providing enhanced functionality
 
 ### How to Start Work
 
-In order to avoid duplication of work, [please open a github issue](https://github.com/iandennismiller/mueller-report/issues) with the title of the section you are working on and your role for that section.
-Be sure nobody has already created an issue for the role and section you will work on.
+**Important: only work on one role at a time. If you create a pull request that includes multiple roles, it might be impossible to merge your work!**
+
+In order to avoid duplication of work, we use [Github issue tracking](https://github.com/iandennismiller/mueller-report/issues).
+To start working on a section of the document, create an issue with the following characteristics:
+
+- As the title of the issue, provide your helper role and the heading of the document section you are working on.
+- In the content of the issue, include any relevant notes about your plans.
+
+Before you start, search the issues to ensure nobody has already created an issue for that helper role and document section.
 
 ### Finishing Work
 
@@ -80,6 +99,30 @@ The following conventions are used throughout the document.
     - each item is indented with 4 spaces
     - sentences within an item are separated by newlines and are also indented
 
+## Footnote template
+
+The Mueller Report consists of content with footnotes.
+In the **copy-paster role**, when migrating content, it is faster to set aside the footnotes as separate work by creating blank footnotes for later.
+
+### Template
+
+Replace `000` with the actual footnote number from the original document.
+
+    % 000
+    \footnote{000}
+
+### Blank footnote example
+
+In this example, footnote number `15` appears after the word "information" within a sentence.
+
+    Here is a key piece of information% 15
+    \footnote{15}
+    that appears inside a sentence.
+
+The `\footnote` tag includes the content `15` as a placeholder for the future.
+Notice the use of newlines; the footnote appears on its own line.
+Also, the fragment ending with "information" ends with a `%` comment, which will suppress that particular newline so that there is no whitespace before the superscript footnote number that appears in the main content.
+
 ## Redacting template
 
 The following text is an example for how redacted text will be represented in the working document.
@@ -98,7 +141,7 @@ Without newlines:
 
     \blackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
 
-Unicode method for headings:
+Unicode method for section headings:
 
     [████████: Reason for Redaction]
 
