@@ -11,10 +11,10 @@ The U.S. Department of Justice (DOJ) released a redacted version of the Mueller 
 The DOJ release suffers from several technical limitations that interfere with public discussion about the Mueller investigation.
 For example:
 
-- the PDF cannot be searched
-- passages of text cannot be highlighted or copied-and-pasted
-- the table of contents is not "clickable"
-- the page numbers in the footer do not match the PDF page numbers
+- the DOJ PDF cannot be searched
+- passages of text in the DOJ PDF cannot be highlighted or copied-and-pasted
+- the table of contents in the DOJ PDF is not "clickable"
+- the page numbers in the footer do not match the DOJ PDF page numbers
 - the DOJ PDF appears to be derived from a photocopy and consequently there are visual artifacts in the PDF
 
 This project is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
@@ -34,7 +34,6 @@ This project is an effort to correct those technical limitations by providing a 
 
 The document is written with LaTeX.
 If you know a little bit of LaTeX and you can use GitHub, then you can help with the project.
-
 There are several kinds of helper roles that enable collaborative editing of the document.
 
 Helper roles:
@@ -45,7 +44,7 @@ Helper roles:
 - **redacter**: check, add, or unredact `\blackout{}` tags; also adjust length of redacted box to be comparable to the original
 - **LaTeX guru**: tweak `includes.tex` to make the document look and behave like the original
 
-### Starting Work
+### How to Start Work
 
 In order to avoid duplication of work, [please open a github issue](https://github.com/iandennismiller/mueller-report/issues) with the title of the section you are working on and your role for that section.
 Be sure nobody has already created an issue for the role and section you will work on.
