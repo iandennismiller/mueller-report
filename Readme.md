@@ -165,6 +165,12 @@ These documents are available in the repository:
 - [mueller-report-ocr.pdf](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr.pdf)
 - [mueller-report-ocr.txt](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr.txt)
 
+## Requirements
+
+### Debian/Ubuntu
+
+    apt install texlive-xetex latexmk
+
 ## See also
 
 - [Special Counsel's Office](https://www.justice.gov/sco)
