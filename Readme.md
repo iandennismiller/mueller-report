@@ -2,12 +2,12 @@
 
 https://iandennismiller.github.io/mueller-report/
 
-The Open Source Mueller Report will provide an enhanced duplicate of the DOJ release in order to support public discussion.
+**Open Source Mueller Report** will provide an enhanced duplicate of the DOJ release in order to support public discussion.
 
 - [Volume I: Russia](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-1.pdf) **Status: in progress**
 - [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-2.pdf) **Status: not started**
 - Appendices **Status: not started**
-- Complete Mueller Report: Vol I, Vol II, and Appendices
+- Open Source Mueller Report: Vol I, Vol II, and Appendices
 
 ## Motivation
 
@@ -21,7 +21,7 @@ For example:
 - the page numbers in the footer do not match the DOJ PDF page numbers
 - the DOJ PDF appears to be derived from an optically-scanned copy and, consequently, there are visual artifacts in the PDF
 
-The [Open Source Mueller Report project](https://github.com/iandennismiller/mueller-report) is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
+[Open Source Mueller Report](https://github.com/iandennismiller/mueller-report) is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
 
 ## Features
 
@@ -58,17 +58,17 @@ There are several kinds of **helper roles** that enable collaborative editing of
 
 ### How to Start Work
 
-**Important: only work on one role at a time. If you create a pull request that includes multiple roles, it might be impossible to merge your work!**
+In order to avoid duplication of work, we use [issue tracking](https://github.com/iandennismiller/mueller-report/issues) and a [kanban board](https://github.com/iandennismiller/mueller-report/projects/1).
 
-In order to avoid duplication of work, we use [Github issue tracking](https://github.com/iandennismiller/mueller-report/issues).
-To start working on a section of the document, create an issue with the following characteristics:
+To start working on the document:
 
-- As the title of the issue, provide your helper role and the heading of the document section you are working on.
-- In the content of the issue, include any relevant notes about your plans.
-
-Before you start, search the issues to ensure nobody has already created an issue for that helper role and document section.
+- find an issue with your helper role and the document section you will work on
+- Post a comment to that issue indicating you are working on it
+- I will assign the issue to you and move it to "in progress" in the [kanban](https://github.com/iandennismiller/mueller-report/projects/1)
 
 ### Finishing Work
+
+**Important: only work on one role at a time. If you create a pull request that includes multiple roles, it might be impossible to merge your work!**
 
 When you are done with the work, [please submit a pull request](https://github.com/iandennismiller/mueller-report/pulls) to close the issue you opened.
 
