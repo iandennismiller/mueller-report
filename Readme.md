@@ -97,6 +97,8 @@ The following conventions are used throughout the document.
 - `\section{lorem ipsum}` is the top-level heading
 - `\subsection{lorem ipsum}` is the second-level heading
 - `\subsubsection{lorem ipsum}` is the third-level heading
+- `\paragraph{lorem ipsum}` is the fouth-level heading
+- `\subparagraph{lorem ipsum}` is the fifth-level heading
 - `\begin{quote}` indicates a block quote
 - `\begin{enumerate}[i]` produces a list with lowercase roman numerals
     - `\item` is an individual list item
@@ -196,7 +198,7 @@ Ensure the following packages are installed.
 
 Open Source Mueller Report
 
-(CC) 2019 Ian Dennis Miller
+[(CC) 2019 Ian Dennis Miller](https://github.com/iandennismiller/mueller-report/blob/master/License.md)
 
 **Attribution 3.0 Unported (CC BY 3.0)**
 
