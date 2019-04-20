@@ -4,8 +4,8 @@ https://github.com/iandennismiller/mueller-report
 
 The Open Source Mueller Report will provide an enhanced duplicate of the DOJ release in order to support public discussion.
 
-- [Volume I: Russia](https://github.com/iandennismiller/mueller-report/blob/master/products/mueller-report-vol-1.pdf) **Status: in progress**
-- [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/products/mueller-report-vol-2.pdf) **Status: not started**
+- [Volume I: Russia](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-1.pdf) **Status: in progress**
+- [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-2.pdf) **Status: not started**
 - Appendices **Status: not started**
 - Complete Mueller Report: Vol I, Vol II, and Appendices
 
@@ -162,8 +162,8 @@ The `pdftotext` utility from `poppler` was used to extract all text to a separat
 
 These documents are available in the repository:
 
-- [mueller-report-ocr.txt](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr.txt)
 - [mueller-report-ocr.pdf](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr.pdf)
+- [mueller-report-ocr.txt](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr.txt)
 
 ## See also
 

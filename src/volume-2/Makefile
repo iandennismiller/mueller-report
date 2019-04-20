@@ -9,5 +9,5 @@ mueller-report-vol-2.pdf: main.tex
 		-use-make \
 		main.tex
 	mkdir -p ../../products
-	mv build/main.pdf ../../products/mueller-report-vol-2.pdf
+	mv build/main.pdf ../../docs/products/mueller-report-vol-2.pdf
 	latexmk -c
