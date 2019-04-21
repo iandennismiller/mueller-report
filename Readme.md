@@ -75,8 +75,10 @@ When you are done with the work, [please submit a pull request](https://github.c
 
 ### Discussion
 
-- github issues: https://github.com/iandennismiller/mueller-report/issues
+- gitter: https://gitter.im/open-source-mueller-report/community#
 - subreddit: https://old.reddit.com/r/OpenSourceMueller/
+- project kanban: https://github.com/iandennismiller/mueller-report/projects/1
+- github issues: https://github.com/iandennismiller/mueller-report/issues
 
 ## Document Source Code Conventions
 
