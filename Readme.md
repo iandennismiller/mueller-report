@@ -8,6 +8,13 @@ Website: https://iandennismiller.github.io/mueller-report/
 - [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-2.pdf) **Status: not started**
 - [Appendix](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-appendix.pdf) **Status: not started**
 
+### Discussion
+
+- gitter: https://gitter.im/open-source-mueller-report/community#
+- subreddit: https://old.reddit.com/r/OpenSourceMueller/
+- project kanban: https://github.com/iandennismiller/mueller-report/projects/1
+- github issues: https://github.com/iandennismiller/mueller-report/issues
+
 ## Motivation
 
 The U.S. Department of Justice (DOJ) released a redacted version of the Mueller Report on April 18, 2019.
@@ -72,13 +79,6 @@ To start working on the document:
 **Important: only work on one role at a time. If you create a pull request that includes multiple roles, it might be impossible to merge your work!**
 
 When you are done with the work, [please submit a pull request](https://github.com/iandennismiller/mueller-report/pulls) to close the issue you opened.
-
-### Discussion
-
-- gitter: https://gitter.im/open-source-mueller-report/community#
-- subreddit: https://old.reddit.com/r/OpenSourceMueller/
-- project kanban: https://github.com/iandennismiller/mueller-report/projects/1
-- github issues: https://github.com/iandennismiller/mueller-report/issues
 
 ## Document Source Code Conventions
 
