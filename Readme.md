@@ -1,13 +1,12 @@
 # Open Source Mueller Report
 
-- [Website](https://iandennismiller.github.io/mueller-report/)
+Website: https://iandennismiller.github.io/mueller-report/
 
 **Open Source Mueller Report** will be an enhanced edition of the DOJ release in order to support public discussion.
 
 - [Volume I: Russia](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-1.pdf) **Status: in progress**
 - [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-2.pdf) **Status: not started**
-- Appendices **Status: not started**
-- Open Source Mueller Report: Vol I, Vol II, and Appendices
+- [Appendix](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-appendix.pdf) **Status: not started**
 
 ## Motivation
 
@@ -74,7 +73,8 @@ When you are done with the work, [please submit a pull request](https://github.c
 
 ### Discussion
 
-[OpenSourceMueller subreddit](https://old.reddit.com/r/OpenSourceMueller/)
+- github issues: https://github.com/iandennismiller/mueller-report/issues
+- subreddit: https://old.reddit.com/r/OpenSourceMueller/
 
 ## Document Source Code Conventions
 
