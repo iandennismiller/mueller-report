@@ -12,7 +12,7 @@ Website: https://iandennismiller.github.io/mueller-report/
 
 - gitter: https://gitter.im/open-source-mueller-report
 - reddit: https://www.reddit.com/r/OpenSourceMueller
-- project kanban: https://github.com/iandennismiller/mueller-report/projects/1
+- project kanban boards: https://github.com/iandennismiller/mueller-report/projects
 - github issues: https://github.com/iandennismiller/mueller-report/issues
 
 ## Motivation
@@ -66,13 +66,14 @@ There are several kinds of **helper roles** that enable collaborative editing of
 
 ### How to Start Work
 
-In order to avoid duplication of work, we use a [project kanban board](https://github.com/iandennismiller/mueller-report/projects/1).
+In order to avoid duplication of work, we use kanban [project boards](https://github.com/iandennismiller/mueller-report/projects?query=is%3Aopen+sort%3Acreated-asc).
 
 To start working on the document:
 
+- click on the [project board](https://github.com/iandennismiller/mueller-report/projects?query=is%3Aopen+sort%3Acreated-asc) with the most recent activity
 - find an issue in the **todo column** with your helper role and the document section you will work on
 - Post a comment to that issue indicating you are working on it
-- I will "assign" the issue to you and move it to **in progress** in the [kanban](https://github.com/iandennismiller/mueller-report/projects/1)
+- I will "assign" the issue to you and move it to **in progress** on the [project board](https://github.com/iandennismiller/mueller-report/projects?query=is%3Aopen+sort%3Acreated-asc)
 
 ### Finishing Work
 
