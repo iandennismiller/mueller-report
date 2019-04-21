@@ -58,13 +58,13 @@ There are several kinds of **helper roles** that enable collaborative editing of
 
 ### How to Start Work
 
-In order to avoid duplication of work, we use [issue tracking](https://github.com/iandennismiller/mueller-report/issues) and a [kanban board](https://github.com/iandennismiller/mueller-report/projects/1).
+In order to avoid duplication of work, we use a [project kanban board](https://github.com/iandennismiller/mueller-report/projects/1).
 
 To start working on the document:
 
-- find an issue with your helper role and the document section you will work on
+- find an issue in the **todo column** with your helper role and the document section you will work on
 - Post a comment to that issue indicating you are working on it
-- I will assign the issue to you and move it to "in progress" in the [kanban](https://github.com/iandennismiller/mueller-report/projects/1)
+- I will "assign" the issue to you and move it to **in progress** in the [kanban](https://github.com/iandennismiller/mueller-report/projects/1)
 
 ### Finishing Work
 
