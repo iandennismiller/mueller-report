@@ -97,7 +97,7 @@ The following conventions are used throughout the document.
     - the previous line must end with `%` to prevent newline
     - after the comment, the footnote number is noted; e.g. `% 63`
 - `\textit{lorem ipsum}` creates italics
-- `\textbf{lorem ipsum}` creates italics
+- `\textbf{lorem ipsum}` creates bold face
 - `\section{lorem ipsum}` is the top-level heading
 - `\subsection{lorem ipsum}` is the second-level heading
 - `\subsubsection{lorem ipsum}` is the third-level heading
