@@ -27,6 +27,11 @@ For example:
 - the page numbers in the footer do not match the DOJ PDF page numbers
 - the DOJ PDF appears to be derived from an optically-scanned copy and, consequently, there are visual artifacts in the PDF
 
+[Duff Johnson of the PDF Association](https://www.pdfa.org/people/duff-johnson/) provides detailed analysis of the quality of the DoJ-redacted PDF in his articles
+
+- [A Technical and Cultural Assessment of the Mueller Report PDF](https://www.pdfa.org/a-technical-and-cultural-assessment-of-the-mueller-report-pdf/)
+- [Even with OCR, the Mueller Report PDF isn’t fully searchable](https://www.pdfa.org/even-with-ocr-the-mueller-report-pdf-isnt-fully-searchable/)
+
 [Open Source Mueller Report](https://github.com/iandennismiller/mueller-report) is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
 
 ## Features
