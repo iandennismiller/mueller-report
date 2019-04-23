@@ -11,4 +11,16 @@ volume-2:
 appendix:
 	cd appendix && make
 
-.PHONY: volume-1 volume-2 appendix
+TEX_FILES = volume-1/introduction.tex \
+	volume-1/investigation.tex
+
+spellcheck: $(addsuffix .spchk,$(basename $(TEX_FILES)))
+
+%.spchk: %.tex
+	@aspell \
+		--encoding=UTF-8 \
+		--lang=en \
+		--personal=./aspell/.aspell.en.per \
+ 		check $<
+
+.PHONY: volume-1 volume-2 appendix spellcheck

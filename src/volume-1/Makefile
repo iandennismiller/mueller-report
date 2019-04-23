@@ -1,6 +1,6 @@
-all: mueller-report-vol-1.pdf
+all: build/main.pdf
 
-mueller-report-vol-1.pdf: main.tex
+build/main.pdf: main.tex
 	latexmk \
 		-pdf \
 		-output-directory="build" \
@@ -9,5 +9,7 @@ mueller-report-vol-1.pdf: main.tex
 		-use-make \
 		main.tex
 	mkdir -p ../../products
-	mv build/main.pdf ../../docs/products/mueller-report-vol-1.pdf
+	cp build/main.pdf ../../docs/products/mueller-report-vol-1.pdf
 	latexmk -c
+
+.PHONY: spellcheck build/main.pdf
