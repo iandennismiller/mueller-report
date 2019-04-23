@@ -18,19 +18,14 @@ Website: https://iandennismiller.github.io/mueller-report/
 ## Motivation
 
 The U.S. Department of Justice (DOJ) released a redacted version of the Mueller Report on April 18, 2019.
-The DOJ release suffers from several technical limitations that interfere with public discussion about the Mueller investigation.
+The DOJ release suffers from [technical limitations that interfere with public discussion](https://www.pdfa.org/a-technical-and-cultural-assessment-of-the-mueller-report-pdf/) about the Mueller investigation.
 For example:
 
-- the DOJ PDF cannot be searched
+- [the DOJ PDF cannot be searched](https://www.pdfa.org/even-with-ocr-the-mueller-report-pdf-isnt-fully-searchable/)
 - passages of text in the DOJ PDF cannot be highlighted or copied-and-pasted
 - the table of contents in the DOJ PDF is not "clickable"
 - the page numbers in the footer do not match the DOJ PDF page numbers
 - the DOJ PDF appears to be derived from an optically-scanned copy and, consequently, there are visual artifacts in the PDF
-
-[Duff Johnson of the PDF Association](https://www.pdfa.org/people/duff-johnson/) provides detailed analysis of the quality of the DoJ-redacted PDF in his articles
-
-- [A Technical and Cultural Assessment of the Mueller Report PDF](https://www.pdfa.org/a-technical-and-cultural-assessment-of-the-mueller-report-pdf/)
-- [Even with OCR, the Mueller Report PDF isn’t fully searchable](https://www.pdfa.org/even-with-ocr-the-mueller-report-pdf-isnt-fully-searchable/)
 
 [Open Source Mueller Report](https://github.com/iandennismiller/mueller-report) is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
 
@@ -61,7 +56,7 @@ There are several kinds of **helper roles** that enable collaborative editing of
 
 ### Helper roles
 
-- **copy-paster**: locate a section heading and copy-paste text from the PDF.  The copy-paster should also add  [redactions](#redacting-template).
+- **copy-paster**: locate a section heading and copy-paste text from the PDF.  The copy-paster should also add [redactions](#redacting-template).
     - [See available copy-paster tasks](https://github.com/iandennismiller/mueller-report/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Acopy-paster+-label%3Aassigned)
 - **footnote adder**: add [blank footnotes](#footnote-template) and fill them with content from the PDF. Also add [redactions](#redacting-template) where appropriate.
     - [See available footnote-adder tasks](https://github.com/iandennismiller/mueller-report/issues?q=is%3Aissue+is%3Aopen+label%3Afootnote-adder+-label%3Aassigned)
@@ -143,7 +138,14 @@ Also, the fragment ending with "information" ends with a `%` comment, which will
 
 ## Redacting template
 
-The following text is an example for how redacted text will be represented in the working document.
+This is the copy-paster template for redactions.  Simply provide the reason for redaction as indicated in the DOJ text.
+
+    \blackout{Reason for Redaction}
+
+Method for redacted section headings:
+    [$\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare$: Reason for Redaction]}
+
+Redacted passages can be expanded or trimmed to approximate the original redactions using lorem ipsum text.
 
     \blackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur
         adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -154,15 +156,9 @@ The following text is an example for how redacted text will be represented in th
         sunt in culpa qui officia deserunt mollit anim id est laborum.
     }
 
-Without newlines:
+Lorem ipsum example without newlines:
 
     \blackout{Harm to Ongoing Matter: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
-
-Unicode method for section headings:
-
-    [████████: Reason for Redaction]
-
-Redacted passages can be expanded or trimmed to approximate the original redactions.
 
 ## Un-redacting
 
