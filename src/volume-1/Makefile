@@ -10,6 +10,5 @@ build/main.pdf: main.tex
 		main.tex
 	mkdir -p ../../products
 	cp build/main.pdf ../../docs/products/mueller-report-vol-1.pdf
-	latexmk -c
 
-.PHONY: spellcheck build/main.pdf
+.PHONY: build/main.pdf
