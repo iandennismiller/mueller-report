@@ -1,8 +1,8 @@
 ---
 name: Copy-Paste Template
 about: Task template for the Copy-Paster Role
-title: ''
-labels: ''
+title: 'copy-paster: VOL, TITLE'
+labels: 'copy-paster'
 assignees: ''
 
 ---

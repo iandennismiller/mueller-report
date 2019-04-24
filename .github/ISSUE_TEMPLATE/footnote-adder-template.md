@@ -1,8 +1,8 @@
 ---
 name: Footnote-Adder Template
 about: Task template for Footnote-Adder Role
-title: ''
-labels: ''
+title: 'footnote-adder: VOL, TITLE'
+labels: 'footnote-adder'
 assignees: ''
 
 ---

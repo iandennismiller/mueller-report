@@ -1,8 +1,8 @@
 ---
 name: Redacter Template
 about: Task template for Redacter Role
-title: ''
-labels: ''
+title: 'redacter: VOL, TITLE'
+labels: 'redacter'
 assignees: ''
 
 ---
