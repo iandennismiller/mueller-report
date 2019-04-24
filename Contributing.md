@@ -11,6 +11,7 @@ There are several kinds of **helper roles** that enable collaborative editing of
 - **footnote adder**: add [blank footnotes](#footnote-template) and fill them with content from the PDF. Also add [redactions](#redacting-template) where appropriate.
     - [See available footnote-adder tasks](https://github.com/iandennismiller/mueller-report/issues?q=is%3Aissue+is%3Aopen+label%3Afootnote-adder+-label%3Aassigned)
 - **redacter**: adjust or unredact `\blackout{}` tags; also adjust length of redacted box to be comparable to the original
+    - [See available redacter tasks](https://github.com/iandennismiller/mueller-report/issues?q=is%3Aissue+is%3Aopen+label%3Aredacter+-label%3Aassigned)
 - **proof reader**: fix typographic errors, spelling, and other mistakes
 - **LaTeX guru**: tweak `includes.tex` to make the document look like the original while providing enhanced functionality
 
