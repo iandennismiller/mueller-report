@@ -7,8 +7,9 @@ assignees: ''
 
 ---
 
-Source code: `src/VOLUME/FILE.tex`
+Source code: `src/VOL/TITLE.tex`
 
+- [ ] read the [Contributing guide](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md)
 - [ ] locate redacted portions and adjust length of redacted passage to match the DOJ document
 - [ ] copy-paste from lorem ipsum text, as appropriate
 

@@ -7,10 +7,11 @@ assignees: ''
 
 ---
 
-Source code: `src/VOLUME/FILE.tex`
+Source code: `src/VOL/TITLE.tex`
 
-- [ ] add blank footnotes using [footnote template](https://github.com/iandennismiller/mueller-report#footnote-template)
+- [ ] read the [Contributing guide](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md)
+- [ ] add blank footnotes using [footnote template](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#footnote-template)
 - [ ] copy and paste footnotes from the source document
 - [ ] manually enter any text that does not copy
-- [ ] add redactions using [redaction template](https://github.com/iandennismiller/mueller-report#redacting-template)
-- [ ] use [LaTeX document conventions](https://github.com/iandennismiller/mueller-report#document-source-code-conventions)
+- [ ] add redactions using [redaction template](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#redacting-template)
+- [ ] use [LaTeX document conventions](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#document-source-code-conventions)
