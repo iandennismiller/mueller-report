@@ -1,3 +1,6 @@
+% margins
+\usepackage[margin=1in]{geometry}
+
 % section numbering
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{5}
@@ -14,9 +17,10 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\subsectionmark}[1]{}
-\fancyhf[HCE,HCO]{\footnotesize Open Source Mueller Report (ver. 0.1) \\ \leftmark}
+\fancyhf[HCE,HCO]{\scriptsize Open Source Mueller Report (ver. 0.1) \\ \leftmark}
 \fancyhf[FCE,FCO]{\thepage}
 \renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{20pt}
 
 % support Cyrillic
 \usepackage{fontenc}
