@@ -16,4 +16,4 @@ before_install:
   - docker ps -a
 
 script:
-  - docker run iandennismiller/pub2 /bin/sh -c "cd /opt; git clone https://github.com/iandennismiller/mueller-report.git; cd mueller-report; cd src; make all"
+  - docker run iandennismiller/pub2 /bin/sh -c "apt -y install aspell texlive-xetex latexmk; cd /opt; git clone https://github.com/iandennismiller/mueller-report.git; cd mueller-report; cd src; make all"
