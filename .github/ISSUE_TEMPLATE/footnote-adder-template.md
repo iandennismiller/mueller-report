@@ -9,7 +9,8 @@ assignees: ''
 
 Source code: `src/VOLUME/FILE.tex`
 
+- [ ] add blank footnotes using [footnote template](https://github.com/iandennismiller/mueller-report#footnote-template)
 - [ ] copy and paste footnotes from the source document
-- [ ] use [LaTeX document conventions](https://github.com/iandennismiller/mueller-report#document-source-code-conventions)
 - [ ] manually enter any text that does not copy
 - [ ] add redactions using [redaction template](https://github.com/iandennismiller/mueller-report#redacting-template)
+- [ ] use [LaTeX document conventions](https://github.com/iandennismiller/mueller-report#document-source-code-conventions)
