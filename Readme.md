@@ -8,13 +8,16 @@ Website: https://iandennismiller.github.io/mueller-report/
 - [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-2.pdf) - **Status**: [in progress](https://github.com/iandennismiller/mueller-report/projects/2)
 - [Appendix](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-appendix.pdf) - **Status**: [not started](https://github.com/iandennismiller/mueller-report/projects/3)
 
-### Discussion & Status
+[![GitHub contributors](https://img.shields.io/github/contributors-anon/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/)
+[![Gitter](https://img.shields.io/gitter/room/iandennismiller/mueller-report.svg)](https://gitter.im/open-source-mueller-report/community)
+[![Build Status](https://travis-ci.org/iandennismiller/mueller-report.svg?branch=master)](https://travis-ci.org/iandennismiller/mueller-report)
+
+### Discussion
 
 - gitter: https://gitter.im/open-source-mueller-report
 - reddit: https://www.reddit.com/r/OpenSourceMueller
 - projects: https://github.com/iandennismiller/mueller-report/projects
 - issues: https://github.com/iandennismiller/mueller-report/issues
-- build: https://travis-ci.org/iandennismiller/mueller-report
 
 ## Motivation
 
