@@ -8,7 +8,6 @@ build/main.pdf: main.tex
 		-xelatex \
 		-use-make \
 		main.tex
-	mkdir -p ../../products
-	cp build/main.pdf ../../docs/products/mueller-report-vol-2.pdf
+	cp build/main.pdf ../docs/mueller-report-vol-2.pdf
 
 .PHONY: build/main.pdf

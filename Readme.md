@@ -4,9 +4,9 @@ Website: https://iandennismiller.github.io/mueller-report/
 
 **Open Source Mueller Report** will be an enhanced edition of the DOJ release in order to support public discussion.
 
-- [Volume I: Russia](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-1.pdf) - **Status**: [in progress](https://github.com/iandennismiller/mueller-report/projects/1)
-- [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-vol-2.pdf) - **Status**: [in progress](https://github.com/iandennismiller/mueller-report/projects/2)
-- [Appendix](https://github.com/iandennismiller/mueller-report/blob/master/docs/products/mueller-report-appendix.pdf) - **Status**: [not started](https://github.com/iandennismiller/mueller-report/projects/3)
+- [Volume I: Russia](https://github.com/iandennismiller/mueller-report/blob/master/docs/mueller-report-vol-1.pdf) - **Status**: [draft available](https://github.com/iandennismiller/mueller-report/projects/1)
+- [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/docs/mueller-report-vol-2.pdf) - **Status**: [in progress](https://github.com/iandennismiller/mueller-report/projects/2)
+- [Appendix](https://github.com/iandennismiller/mueller-report/blob/master/docs/mueller-report-appendix.pdf) - **Status**: [not started](https://github.com/iandennismiller/mueller-report/projects/3)
 
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/)
 [![Gitter](https://img.shields.io/gitter/room/iandennismiller/mueller-report.svg)](https://gitter.im/open-source-mueller-report/community)
