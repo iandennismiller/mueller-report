@@ -8,6 +8,6 @@ build/main.pdf: main.tex
 		-xelatex \
 		-use-make \
 		main.tex
-	cp build/main.pdf ../docs/mueller-report-appendix.pdf
+	cp build/main.pdf ../../docs/mueller-report-appendix.pdf
 
 .PHONY: build/main.pdf
