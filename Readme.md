@@ -9,7 +9,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/)
 [![Gitter](https://img.shields.io/gitter/room/iandennismiller/mueller-report.svg)](https://gitter.im/open-source-mueller-report/community)
 [![Build Status](https://travis-ci.org/iandennismiller/mueller-report.svg?branch=master)](https://travis-ci.org/iandennismiller/mueller-report)
-![GitHub issues](https://img.shields.io/github/issues-raw/iandennismiller/mueller-report.svg)
+[![GitHub issues](https://img.shields.io/github/issues-raw/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/issues)
 
 ### Discussion
 
