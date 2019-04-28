@@ -47,6 +47,7 @@ For example:
 ### Limitations
 
 - *under development; not complete yet*
+- might include typos and other errors; [please help if you find anything!](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#contributing)
 - page numbers do not correspond to original Mueller document or to DOJ release
 - redacted boxes are interrupted by spaces; they are not continuous
 - redacted boxes, which are based on lorem ipsum text, are suggestive of underlying word length and structure although no information about this is known
@@ -55,20 +56,20 @@ For example:
 ## Contributing
 
 The document is written with LaTeX.
-If you know a little bit of LaTeX and you know how to use Github, then you can help with the project.
+If you know a little bit of LaTeX and you know how to use Github, then [you can help with the project](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#contributing).
 There are several kinds of **helper roles** that enable collaborative editing of the document.
 
 ### Helper roles
 
-- **copy-paster**: locate a section heading and copy-paste text from the PDF
-- **footnote adder**: add footnotes and fill them with content from the PDF
-- **redacter**:  adjust length of redacted boxes to be comparable to the original
-- **proof reader**: fix typographic errors, spelling, and other mistakes
-- **LaTeX guru**: tweak `includes.tex` to make the document look like the original while providing enhanced functionality
+- [copy-paster](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles): locate a section heading and copy-paste text from the PDF
+- [footnote adder](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles): add footnotes and fill them with content from the PDF
+- [redacter](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles):  adjust length of redacted boxes to be comparable to the original
+- [proof reader](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles): fix typographic errors, spelling, and other mistakes
+- [LaTeX guru](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles): tweak `includes.tex` to make the document look like the original while providing enhanced functionality
 
 ### How to Contribute
 
-[Learn how to help on the Contributing page.](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md)
+[Learn how to help on the Contributing page.](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#contributing)
 
 ## Build Instructions
 
