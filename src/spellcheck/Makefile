@@ -32,10 +32,10 @@ spelltest: clean $(addsuffix .sptest,$(basename $(TEX_FILES)))
 		mv /tmp/m2.txt /tmp/misspelled.txt
 	@grep '.' /tmp/misspelled.txt > /tmp/m2.txt && \
 		mv /tmp/m2.txt /tmp/misspelled.txt
-	@[ ! "$$(grep -v 'Aspell' /tmp/misspelled.txt)" ]
+	[ ! "$$(grep -v 'Aspell' /tmp/misspelled.txt)" ]
 
 %.sptest: %.tex
-	@aspell \
+	aspell \
 		--pipe \
 		--mode=tex \
 		--encoding=UTF-8 \
