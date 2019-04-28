@@ -30,6 +30,7 @@ For example:
 - the table of contents in the DOJ PDF is not "clickable"
 - the page numbers in the footer do not match the DOJ PDF page numbers
 - the DOJ PDF appears to be derived from an optically-scanned copy and, consequently, there are visual artifacts in the PDF
+- the DOJ PDF is a large file (137 MB)
 
 [Open Source Mueller Report](https://github.com/iandennismiller/mueller-report) is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
 
@@ -42,6 +43,7 @@ For example:
 - descriptive page headers with section name
 - working hyperlinks for table of contents and footnotes
 - redactions are represented explicitly in the source code
+- reduced file size (under 5 MB)
 - canonical URL with greater permanence than DOJ distribution
 
 ### Limitations
