@@ -26,4 +26,24 @@ spellcheck: $(addsuffix .spchk,$(basename $(TEX_FILES)))
 		--personal=./.aspell.en.per \
  		check $<
 
-.PHONY: spellcheck
+# non-interactive pass/fail if all words are good
+spelltest: clean $(addsuffix .sptest,$(basename $(TEX_FILES)))
+	@grep -v '*' /tmp/misspelled.txt > /tmp/m2.txt && \
+		mv /tmp/m2.txt /tmp/misspelled.txt
+	@grep '.' /tmp/misspelled.txt > /tmp/m2.txt && \
+		mv /tmp/m2.txt /tmp/misspelled.txt
+	@[ ! "$$(grep -v 'Aspell' /tmp/misspelled.txt)" ]
+
+%.sptest: %.tex
+	@aspell \
+		--pipe \
+		--mode=tex \
+		--encoding=UTF-8 \
+		--lang=en \
+		--personal=./.aspell.en.per \
+ 		list < $< >> /tmp/misspelled.txt
+
+clean:
+	@rm -f /tmp/misspelled.txt
+
+.PHONY: spellcheck spelltest clean

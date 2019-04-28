@@ -12,6 +12,6 @@ appendix:
 	cd appendix && make
 
 spellcheck:
-	cd spellcheck && make
+	cd spellcheck && make spelltest
 
 .PHONY: volume-1 volume-2 appendix spellcheck
