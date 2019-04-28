@@ -2,20 +2,20 @@
 
 **Open Source Mueller Report** will be an enhanced edition of the DOJ release in order to support public discussion.
 
-- [Volume I: Russia](https://github.com/iandennismiller/mueller-report/blob/master/docs/mueller-report-vol-1.pdf) - Status: draft available
-- [Volume II: Obstruction](https://github.com/iandennismiller/mueller-report/blob/master/docs/mueller-report-vol-2.pdf) - Status: in progress
-- [Appendix](https://github.com/iandennismiller/mueller-report/blob/master/docs/mueller-report-appendix.pdf) - Status: not started
+- [Volume I: Russia](https://iandennismiller.github.io/mueller-report/mueller-report-vol-1.pdf) - Status: draft available
+- [Volume II: Obstruction](https://iandennismiller.github.io/mueller-report/mueller-report-vol-2.pdf) - Status: in progress
+- [Appendix](https://iandennismiller.github.io/mueller-report/mueller-report-appendix.pdf) - Status: not started
 
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/)
 [![Gitter](https://img.shields.io/gitter/room/iandennismiller/mueller-report.svg)](https://gitter.im/open-source-mueller-report/community)
 [![Build Status](https://travis-ci.org/iandennismiller/mueller-report.svg?branch=master)](https://travis-ci.org/iandennismiller/mueller-report)
+![GitHub issues](https://img.shields.io/github/issues-raw/iandennismiller/mueller-report.svg)
 
 ### Discussion
 
 - website: https://iandennismiller.github.io/mueller-report
 - chatroom: https://gitter.im/open-source-mueller-report
 - forum: https://www.reddit.com/r/OpenSourceMueller
-- issues: https://github.com/iandennismiller/mueller-report/issues
 
 ## Motivation
 
