@@ -1,6 +1,6 @@
 # Mueller Report, Open Source Edition
 
-all: volume-1 volume-2 appendix
+all: spellcheck volume-1 volume-2 appendix
 
 volume-1:
 	cd volume-1 && make
