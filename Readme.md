@@ -4,7 +4,7 @@
 
 - [Volume I: Russia](https://iandennismiller.github.io/mueller-report/mueller-report-vol-1.pdf) - Status: draft available
 - [Volume II: Obstruction](https://iandennismiller.github.io/mueller-report/mueller-report-vol-2.pdf) - Status: in progress
-- [Appendix](https://iandennismiller.github.io/mueller-report/mueller-report-appendix.pdf) - Status: not started
+- [Appendix](https://iandennismiller.github.io/mueller-report/mueller-report-appendix.pdf) - Status: in progress
 
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/)
 [![Gitter](https://img.shields.io/gitter/room/iandennismiller/mueller-report.svg)](https://gitter.im/open-source-mueller-report/community)
