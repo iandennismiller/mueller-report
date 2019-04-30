@@ -15,7 +15,11 @@ TEX_FILES = ../volume-1/title.tex \
 	../volume-2/background-principles.tex \
 	../volume-2/factual-results.tex \
 	../volume-2/legal-defenses-of-president.tex \
-	../volume-2/conclusion.tex
+	../volume-2/conclusion.tex \
+	../appendix/appendix-a.tex \
+	../appendix/appendix-b.tex \
+	../appendix/appendix-c.tex \
+	../appendix/appendix-d.tex
 
 spellcheck: $(addsuffix .spchk,$(basename $(TEX_FILES)))
 
