@@ -1,0 +1,17 @@
+{
+    "template": {
+        "match": null,
+        "replace": null
+    },
+    "expand footnotes": {
+        "match": "% (\d+)$",
+        "replace": "% $1\n\\footnote{$1}"
+    },
+    "transform section glyph": {
+        "match": "§",
+        "replace": "\\S"
+    },
+
+
+
+}
