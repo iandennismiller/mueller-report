@@ -39,9 +39,13 @@
         "match": "—",
         "replace": "-"
     },
-    "unescaped ampersands": {
-        "match": "([^\\])&",
-        "replace": "$1\\&"
+    "unescaped special characters": {
+        "match": "([^\\])([&@_#$])",
+        "replace": "$1\\$2"
+    },
+    "unescaped percents": {
+        "match": "([^\\}\.\"\'])%",
+        "replace": "$1\\%"
     },
 
 
