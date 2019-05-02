@@ -31,5 +31,8 @@
         "match": "\w\"\w",
         replace: null
     }
-
+    "locate incorrect elipses": {
+        "match": "\.\s+\.",
+        replace: null
+    }
 }
