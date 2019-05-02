@@ -11,7 +11,17 @@
         "match": "§",
         "replace": "\\S"
     },
-
-
+    "apostrophe 1": {
+        "match": "’",
+        "replace": "'"
+    },
+    "quote 1": {
+        "match": "“",
+        "replace": "``"
+    },
+    "quote 2": {
+        "match": "”",
+        "replace": "''"
+    },
 
 }
