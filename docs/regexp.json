@@ -12,20 +12,20 @@
         "replace": "\\S"
     },
     "apostrophe 1": {
-        "match": "’",
+        "match": "[’‘]",
         "replace": "'"
     },
     "quote left": {
-        "match": "“",
-        "replace": "``"
-    },
-    "quote right": {
-        "match": "”",
-        "replace": "''"
+        "match": "[“”]",
+        "replace": "\""
     },
     "space after comma": {
         "match": "(\w),(\w)",
         "replace": "$1, $2"
     },
+    "locate sentences": {
+        "match": "\. ",
+        replace: null
+    }
 
 }
