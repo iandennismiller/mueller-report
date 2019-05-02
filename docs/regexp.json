@@ -15,13 +15,17 @@
         "match": "’",
         "replace": "'"
     },
-    "quote 1": {
+    "quote left": {
         "match": "“",
         "replace": "``"
     },
-    "quote 2": {
+    "quote right": {
         "match": "”",
         "replace": "''"
+    },
+    "space after comma": {
+        "match": "(\w),(\w)",
+        "replace": "$1, $2"
     },
 
 }
