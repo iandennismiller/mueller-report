@@ -35,4 +35,14 @@
         "match": "\.\s+\.",
         replace: null
     }
+    "transform dash": {
+        "match": "—",
+        "replace": "-"
+    },
+    "unescaped ampersands": {
+        "match": "([^\\])&",
+        "replace": "$1\\&"
+    },
+
+
 }
