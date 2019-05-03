@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\textit]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ita</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.tex.latex</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Italics</description>
+</snippet>
