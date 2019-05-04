@@ -35,6 +35,7 @@ For example:
 ## Features
 
 - high fidelity text; not deteriorated by photocopy, redaction, and optical character recognition
+- available in PDF and ePub formats
 - supports full-text search
 - split document into Volume 1 and Volume 2
 - PDF page numbering matches content page numbering
@@ -100,6 +101,7 @@ apt install aspell texlive-xetex latexmk
 - [Poppler](https://poppler.freedesktop.org/)
 - [LaTeX-Mk](http://latex-mk.sourceforge.net/)
 - [Water.css](https://kognise.github.io/water.css/)
+- [Great Seal of the United States](https://en.wikipedia.org/wiki/Great_Seal_of_the_United_States)
 
 ## License
 
