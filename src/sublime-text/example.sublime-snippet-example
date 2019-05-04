@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\blackout{Investigative Technique}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>bli</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.tex.latex</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Blackout Investigative Technique Snippet</description>
+</snippet>

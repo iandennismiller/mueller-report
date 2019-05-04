@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[\blackout{Personal Privacy}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>blp</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.tex.latex</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Blackout Personal Privacy Snippet</description>
+</snippet>
+

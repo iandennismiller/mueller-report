@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[\blackout{Harm to Ongoing Matter}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>blh</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.tex.latex</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Blackout Harm to Ongoing Matter Snippet</description>
+</snippet>
+
