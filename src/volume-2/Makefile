@@ -1,4 +1,4 @@
-all: build/main.pdf
+all: build/main.pdf build/main.epub
 
 build/main.pdf: main.tex
 	latexmk \
