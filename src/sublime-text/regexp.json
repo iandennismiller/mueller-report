@@ -47,6 +47,9 @@
         "match": "([^\\}\.\"\'])%",
         "replace": "$1\\%"
     },
-
+    "junk footnotes": {
+        "match": "[\.!\?][ \*©”!°%®“’>\?'\"`]+",
+        "replace": null
+    }
 
 }
