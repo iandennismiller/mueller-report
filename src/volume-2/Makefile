@@ -1,4 +1,4 @@
-all: build/main.pdf build/main.epub
+all: build/main.pdf build/main.epub clean-docx
 
 build/main.pdf: main.tex
 	latexmk \
@@ -17,6 +17,9 @@ build/main.epub: main.tex
 	cp build/main.epub ../../docs/mueller-report-vol-2.epub
 
 clean:
+	rm -rf build
+
+clean-docx:
 	rm -f *.html \
 		*.aux \
 		*.png \
@@ -33,6 +36,5 @@ clean:
 		main.xwm \
 		content.opf
 	rm -rf main-epub
-	rm -rf build
 
-.PHONY: build/main.pdf build/main.epub epub clean
+.PHONY: build/main.pdf build/main.epub epub clean clean-docx
