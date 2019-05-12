@@ -3,7 +3,7 @@
 **Open Source Mueller Report** will be an enhanced edition of the DOJ release in order to support public discussion.
 
 - [[PDF]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-1.pdf) [[ePub]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-1.epub) Volume I: Russia
-- [PDF]  [ePub] Volume II: Obstruction (in progress)
+- [[PDF]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-2.pdf) [[ePub]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-2.epub) Volume II: Obstruction
 - [[PDF]](https://iandennismiller.github.io/mueller-report/mueller-report-appendix.pdf) [[ePub]](https://iandennismiller.github.io/mueller-report/mueller-report-appendix.epub) Appendix
 
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/)
