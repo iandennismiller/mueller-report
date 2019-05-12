@@ -8,13 +8,13 @@ build/main.pdf: main.tex
 		-xelatex \
 		-use-make \
 		main.tex
-# 	cp build/main.pdf ../../docs/mueller-report-complete.pdf
+	cp build/main.pdf ../../docs/mueller-report.pdf
 
 build/main.epub: main.tex
 	mkdir -p build
 	tex4ebook main.tex
 	mv main.epub build/main.epub
-# 	cp build/main.epub ../../docs/mueller-report-complete.epub
+	cp build/main.epub ../../docs/mueller-report.epub
 
 clean:
 	rm -rf build
