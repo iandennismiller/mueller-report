@@ -1,6 +1,6 @@
 # Open Source Mueller Report
 
-**Open Source Mueller Report** will be an enhanced edition of the DOJ release in order to support public discussion.
+**Open Source Mueller Report** is an enhanced edition of the DOJ release in order to support public discussion.
 
 - [[PDF]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-1.pdf) [[ePub]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-1.epub) Volume I: Russia
 - [[PDF]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-2.pdf) [[ePub]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-2.epub) Volume II: Obstruction
@@ -17,21 +17,6 @@
 - website: https://iandennismiller.github.io/mueller-report
 - chatroom: https://gitter.im/open-source-mueller-report
 - forum: https://www.reddit.com/r/OpenSourceMueller
-
-## Motivation
-
-The U.S. Department of Justice (DOJ) released a redacted version of the Mueller Report on April 18, 2019.
-The DOJ release suffers from [technical limitations that interfere with public discussion](https://www.pdfa.org/a-technical-and-cultural-assessment-of-the-mueller-report-pdf/) about the Mueller investigation.
-For example:
-
-- [the DOJ PDF cannot be searched](https://www.pdfa.org/even-with-ocr-the-mueller-report-pdf-isnt-fully-searchable/)
-- passages of text in the DOJ PDF cannot be highlighted or copied-and-pasted
-- the table of contents in the DOJ PDF is not "clickable"
-- the page numbers in the footer do not match the DOJ PDF page numbers
-- the DOJ PDF appears to be derived from an optically-scanned copy and, consequently, there are visual artifacts in the PDF
-- the DOJ PDF is a large file (137 MB)
-
-[Open Source Mueller Report](https://github.com/iandennismiller/mueller-report) is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
 
 ## Features
 
@@ -54,6 +39,21 @@ For example:
 - redacted boxes are interrupted by spaces; they are not continuous
 - redacted boxes, which are based on lorem ipsum text, are suggestive of underlying word length and structure although no information about this is known
 - other cosmetic differences
+
+## Motivation
+
+The U.S. Department of Justice (DOJ) released a redacted version of the Mueller Report on April 18, 2019.
+The DOJ release suffers from [technical limitations that interfere with public discussion](https://www.pdfa.org/a-technical-and-cultural-assessment-of-the-mueller-report-pdf/) about the Mueller investigation.
+For example:
+
+- [the DOJ PDF cannot be searched](https://www.pdfa.org/even-with-ocr-the-mueller-report-pdf-isnt-fully-searchable/)
+- passages of text in the DOJ PDF cannot be highlighted or copied-and-pasted
+- the table of contents in the DOJ PDF is not "clickable"
+- the page numbers in the footer do not match the DOJ PDF page numbers
+- the DOJ PDF appears to be derived from an optically-scanned copy and, consequently, there are visual artifacts in the PDF
+- the DOJ PDF is a large file (137 MB)
+
+[Open Source Mueller Report](https://github.com/iandennismiller/mueller-report) is an effort to correct those technical limitations by providing a "clean room" reimplementation of the document from source code.
 
 ## Contributing
 
