@@ -63,11 +63,11 @@ There are several kinds of **helper roles** that enable collaborative editing of
 
 ### Helper roles
 
-- [copy-paster](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles): locate a section heading and copy-paste text from the PDF
-- [footnote adder](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles): add footnotes and fill them with content from the PDF
 - [redacter](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles):  adjust length of redacted boxes to be comparable to the original
 - [proof reader](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles): fix typographic errors, spelling, and other mistakes
 - [LaTeX guru](https://github.com/iandennismiller/mueller-report/blob/master/Contributing.md#helper-roles): tweak `includes.tex` to make the document look like the original while providing enhanced functionality
+- ~~copy-paster: locate a section heading and copy-paste text from the PDF~~
+- ~~footnote adder: add footnotes and fill them with content from the PDF~~
 
 ### How to Contribute
 

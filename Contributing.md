@@ -12,10 +12,8 @@ There are several kinds of **helper roles** that enable collaborative editing of
     - [See available proofer tasks](https://github.com/iandennismiller/mueller-report/issues?q=is%3Aissue+is%3Aopen+label%3Aproofer+-label%3Aassigned)
 - **LaTeX guru**: tweak `includes.tex` to make the document look like the original while providing enhanced functionality.
     - [See available guru tasks](https://github.com/iandennismiller/mueller-report/issues?q=is%3Aissue+is%3Aopen+label%3Aguru+-label%3Aassigned)
-- **copy-paster**: locate a section heading and copy-paste text from the PDF.  The copy-paster should also add [redactions](#redacting-template).
-    - All copy-paster tasks complete.
-- **footnote adder**: add [blank footnotes](#footnote-template) and fill them with content from the PDF. Also add [redactions](#redacting-template) where appropriate.
-    - All footnote-adder tasks complete.
+- ~~copy-paster: locate a section heading and copy-paste text from the PDF.  The copy-paster should also add [redactions](#redacting-template).~~
+- ~~footnote adder: add [blank footnotes](#footnote-template) and fill them with content from the PDF. Also add [redactions](#redacting-template) where appropriate.~~
 
 ## How to Start Work
 
