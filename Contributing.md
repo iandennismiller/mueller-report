@@ -6,14 +6,16 @@ There are several kinds of **helper roles** that enable collaborative editing of
 
 ## Helper roles
 
-- **copy-paster**: locate a section heading and copy-paste text from the PDF.  The copy-paster should also add [redactions](#redacting-template).
-    - [See available copy-paster tasks](https://github.com/iandennismiller/mueller-report/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Acopy-paster+-label%3Aassigned)
-- **footnote adder**: add [blank footnotes](#footnote-template) and fill them with content from the PDF. Also add [redactions](#redacting-template) where appropriate.
-    - [See available footnote-adder tasks](https://github.com/iandennismiller/mueller-report/issues?q=is%3Aissue+is%3Aopen+label%3Afootnote-adder+-label%3Aassigned)
-- **redacter**: adjust or unredact `\blackout{}` tags; also adjust length of redacted box to be comparable to the original
+- **redacter**: adjust or unredact `\blackout{}` tags; also adjust length of redacted box to be comparable to the original.
     - [See available redacter tasks](https://github.com/iandennismiller/mueller-report/issues?q=is%3Aissue+is%3Aopen+label%3Aredacter+-label%3Aassigned)
-- **proof reader**: fix typographic errors, spelling, and other mistakes
-- **LaTeX guru**: tweak `includes.tex` to make the document look like the original while providing enhanced functionality
+- **proof reader**: fix typographic errors, spelling, and other mistakes.
+    - [See available proofer tasks](https://github.com/iandennismiller/mueller-report/issues?q=is%3Aissue+is%3Aopen+label%3Aproofer+-label%3Aassigned)
+- **LaTeX guru**: tweak `includes.tex` to make the document look like the original while providing enhanced functionality.
+    - [See available guru tasks](https://github.com/iandennismiller/mueller-report/issues?q=is%3Aissue+is%3Aopen+label%3Aguru+-label%3Aassigned)
+- **copy-paster**: locate a section heading and copy-paste text from the PDF.  The copy-paster should also add [redactions](#redacting-template).
+    - All copy-paster tasks complete.
+- **footnote adder**: add [blank footnotes](#footnote-template) and fill them with content from the PDF. Also add [redactions](#redacting-template) where appropriate.
+    - All footnote-adder tasks complete.
 
 ## How to Start Work
 
