@@ -14,7 +14,7 @@
 
 ### Discussion
 
-- website: https://iandennismiller.github.io/mueller-report
+- website: http://opensourcemuellerreport.com
 - chatroom: https://gitter.im/open-source-mueller-report
 - forum: https://www.reddit.com/r/OpenSourceMueller
 
