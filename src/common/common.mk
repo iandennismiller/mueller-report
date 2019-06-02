@@ -30,18 +30,18 @@ clean:
 	rm -f *.html \
 		*.aux \
 		*.png \
-	 	main.4ct \
-		main.4tc \
-		main.css \
-		main.dvi \
-		main.idv \
-		main.lg \
-		main.log \
-		main.ncx \
-		main.tmp \
-		main.xref \
-		main.xwm \
-		content.opf
+	 	*.4ct \
+		*.4tc \
+		*.css \
+		*.dvi \
+		*.idv \
+		*.lg \
+		*.log \
+		*.ncx \
+		*.tmp \
+		*.xref \
+		*.xwm \
+		*.opf
 	rm -rf main-epub
 	rm -rf build
 
