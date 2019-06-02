@@ -120,16 +120,18 @@ As redacted passages are disclosed, the corresponding passages in this source co
 
 The raw PDF obtained from the DOJ was processed with the open source tool `OCRmyPDF`, which uses the open source `Tesseract` OCR engine to perform optical character recognition upon PDF files.
 
-    ocrmypdf mueller-report.pdf mueller-report-ocr.pdf
+    ocrmypdf mueller-report.pdf mueller-report-ocr-2019-04-18.pdf
 
 The `pdftotext` utility from `poppler` was used to extract all text to a separate file.
 
-    pdftotext mueller-report-ocr.pdf mueller-report-ocr.txt
+    pdftotext \
+        mueller-report-ocr-2019-04-18.pdf \
+        mueller-report-ocr-2019-04-18.txt
 
 These documents are available in the repository:
 
-- [mueller-report-ocr.pdf](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr.pdf)
-- [mueller-report-ocr.txt](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr.txt)
+- [mueller-report-ocr-2019-04-18.pdf](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr-2019-04-18.pdf)
+- [mueller-report-ocr-2019-04-18.txt](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr-2019-04-18.txt)
 
 ## Contributor Covenant Code of Conduct
 
