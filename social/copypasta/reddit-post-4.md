@@ -5,10 +5,10 @@ We have released PDF and ePub files that work better than the original PDF, incl
 
 ## Documents
 
-- [[PDF]](http://opensourcemuellerreport.com/mueller-report-vol-1.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-vol-1.epub) Volume I: Russia
-- [[PDF]](http://opensourcemuellerreport.com/mueller-report-vol-2.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-vol-2.epub) Volume II: Obstruction
-- [[PDF]](http://opensourcemuellerreport.com/mueller-report-appendix.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-appendix.epub) Appendix
-- [[PDF]](http://opensourcemuellerreport.com/mueller-report.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report.epub) Full Report
+- [[PDF]](http://opensourcemuellerreport.com/mueller-report-vol-1.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-vol-1.epub) [[HTML]](http://opensourcemuellerreport.com/mueller-report-vol-1.html) Volume I: Russia
+- [[PDF]](http://opensourcemuellerreport.com/mueller-report-vol-2.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-vol-2.epub) [[HTML]](http://opensourcemuellerreport.com/mueller-report-vol-2.html) Volume II: Obstruction
+- [[PDF]](http://opensourcemuellerreport.com/mueller-report-appendix.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-appendix.epub) [[HTML]](http://opensourcemuellerreport.com/mueller-report-appendix.html) Appendix
+- [[PDF]](http://opensourcemuellerreport.com/mueller-report.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report.epub) [[HTML]](http://opensourcemuellerreport.com/mueller-report.html) Complete Report
 
 ## Links
 

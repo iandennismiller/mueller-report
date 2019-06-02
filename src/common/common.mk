@@ -21,7 +21,7 @@ build/main.epub: main.tex
 
 build/main.html: main.tex
 	mkdir -p build ../../docs/images
-	htlatex main.tex "bookstyle,fn-in"
+	htlatex main.tex "bookstyle,fn-in,charset=utf-8" " -cunihtf -utf8"
 	mv main.html build/main.html
 	cp build/main.html ../../docs/$(FILENAME).html
 	-cp images/* ../../docs/images

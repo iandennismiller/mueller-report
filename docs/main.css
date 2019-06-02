@@ -1,17 +1,15 @@
- 
 /* start css.sty */
 .cmr-10{font-size:83%;}
+.cmmi-10{font-size:83%;font-style: italic;}
 .cmsy-10{font-size:83%;}
 .cmr-17x-x-143{font-size:202%;}
 .cmr-12x-x-120{font-size:120%;}
 .cmti-12{ font-style: italic;}
+.cmmi-12{font-style: italic;}
+.cmbx-12{ font-weight: bold;}
 .cmr-10x-x-109{font-size:90%;}
 .cmti-10{font-size:83%; font-style: italic;}
-.cmcsc-10{font-size:83%;}
-.cmbx-12{ font-weight: bold;}
-.cmtt-10{font-size:83%;font-family: monospace;}
 .cmsl-10{font-size:83%;font-style: oblique;}
-.small-caps{font-variant: small-caps; }
 p.noindent { text-indent: 0em }
 td p.noindent { text-indent: 0em; margin-top:0em; }
 p.nopar { text-indent: 0em; }
@@ -87,7 +85,7 @@ div.figure img {text-align:center;}
 .marginpar p{margin-top:0.4em; margin-bottom:0.4em;}
 table.equation {width:100%;}
 .equation td{text-align:center; }
-td.equation { margin-top:1em; margin-bottom:1em; } 
+td.equation { margin-top:1em; margin-bottom:1em; }
 td.equation-label { width:5%; text-align:center; }
 td.eqnarray4 { width:5%; white-space: normal; }
 td.eqnarray2 { width:5%; }
@@ -129,12 +127,13 @@ span.sout {text-decoration: line-through }
 span.xout {text-decoration: line-through }
 span.uwave {text-decoration:underline }
 .caption span.id{font-weight: bold;}
- .wrapfig-r, .wrapfig-ri, .wrapfig-ir, .wrapfig-ro, .wrapfig-or {float:right; text-align:left; margin-left:auto; margin-top:0.5em;} 
- .wrapfig-l, .wrapfig-li, .wrapfig-il, .wrapfig-lo, .wrapfig-ol {float:left; text-align:left; margin-right:auto; margin-top:0.5em;} 
+ .wrapfig-r, .wrapfig-ri, .wrapfig-ir, .wrapfig-ro, .wrapfig-or {float:right; text-align:left; margin-left:auto; margin-top:0.5em;}
+ .wrapfig-l, .wrapfig-li, .wrapfig-il, .wrapfig-lo, .wrapfig-ol {float:left; text-align:left; margin-right:auto; margin-top:0.5em;}
 .wrapfig-r .caption td.content, .wrapfig-ri .caption td.content, .wrapfig-ir .caption td.content, .wrapfig-ro .caption td.content, .wrapfig-or .caption td.content, .wrapfig-l .caption td.content, .wrapfig-li .caption td.content, .wrapfig-il .caption td.content, .wrapfig-lo .caption td.content, .wrapfig-ol .caption td.content {white-space: normal; }
 .wrapfig-r .caption, .wrapfig-ri .caption, .wrapfig-ir .caption, .wrapfig-ro .caption, .wrapfig-or .caption, .wrapfig-l .caption, .wrapfig-li .caption, .wrapfig-il .caption, .wrapfig-lo .caption, .wrapfig-ol .caption {width:30%; }
 table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
 div.longtable{text-align:center;}
-body { width: 40em; margin: 0 auto; } 
+body { max-width: 40em; margin: 0 auto; line-height: 1.5em; font-size: 14pt; padding: 1em;}
+img { max-width: 40em; max-height: 20em; }
+div.center { line-height: 2em; }
 /* end css.sty */
-

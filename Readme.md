@@ -2,10 +2,10 @@
 
 **Open Source Mueller Report** is an enhanced edition of the DOJ release in order to support public discussion.
 
-- [[PDF]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-1.pdf) [[ePub]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-1.epub) [[HTML]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-1.html) Volume I: Russia
-- [[PDF]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-2.pdf) [[ePub]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-2.epub) [[HTML]](https://iandennismiller.github.io/mueller-report/mueller-report-vol-2.html) Volume II: Obstruction
-- [[PDF]](https://iandennismiller.github.io/mueller-report/mueller-report-appendix.pdf) [[ePub]](https://iandennismiller.github.io/mueller-report/mueller-report-appendix.epub) [[HTML]](https://iandennismiller.github.io/mueller-report/mueller-report-appendix.html) Appendix
-- [[PDF]](https://iandennismiller.github.io/mueller-report/mueller-report.pdf) [[ePub]](https://iandennismiller.github.io/mueller-report/mueller-report.epub) [[HTML]](https://iandennismiller.github.io/mueller-report/mueller-report.html) Complete Report
+- [[PDF]](http://opensourcemuellerreport.com/mueller-report-vol-1.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-vol-1.epub) [[HTML]](http://opensourcemuellerreport.com/mueller-report-vol-1.html) Volume I: Russia
+- [[PDF]](http://opensourcemuellerreport.com/mueller-report-vol-2.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-vol-2.epub) [[HTML]](http://opensourcemuellerreport.com/mueller-report-vol-2.html) Volume II: Obstruction
+- [[PDF]](http://opensourcemuellerreport.com/mueller-report-appendix.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-appendix.epub) [[HTML]](http://opensourcemuellerreport.com/mueller-report-appendix.html) Appendix
+- [[PDF]](http://opensourcemuellerreport.com/mueller-report.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report.epub) [[HTML]](http://opensourcemuellerreport.com/mueller-report.html) Complete Report
 
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/)
 [![Gitter](https://img.shields.io/gitter/room/iandennismiller/mueller-report.svg)](https://gitter.im/open-source-mueller-report/community)

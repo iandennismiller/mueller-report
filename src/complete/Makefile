@@ -1,3 +1,3 @@
 FILENAME=mueller-report
 
-include ../common.mk
+include ../common/common.mk
