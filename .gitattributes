@@ -1,7 +1,7 @@
 data/mueller-report-ocr-2019-04-18.pdf filter=lfs diff=lfs merge=lfs -text
-docs/media/mueller-report-2019-05-06.pdf filter=lfs diff=lfs merge=lfs -text
-docs/media/barr-initial-review-2019-03-24.pdf filter=lfs diff=lfs merge=lfs -text
-docs/media/mueller-barr-letter-2019-03-27.pdf filter=lfs diff=lfs merge=lfs -text
-docs/media/steele-trump-russia-dossier-2016-12-13.pdf filter=lfs diff=lfs merge=lfs -text
-docs/media/mueller-statement-2019-05-29.mp4 filter=lfs diff=lfs merge=lfs -text
-docs/media/mueller-report-original-2019-04-18.pdf filter=lfs diff=lfs merge=lfs -text
+media/mueller-report-2019-05-06.pdf filter=lfs diff=lfs merge=lfs -text
+media/barr-initial-review-2019-03-24.pdf filter=lfs diff=lfs merge=lfs -text
+media/mueller-barr-letter-2019-03-27.pdf filter=lfs diff=lfs merge=lfs -text
+media/steele-trump-russia-dossier-2016-12-13.pdf filter=lfs diff=lfs merge=lfs -text
+media/mueller-statement-2019-05-29.mp4 filter=lfs diff=lfs merge=lfs -text
+media/mueller-report-original-2019-04-18.pdf filter=lfs diff=lfs merge=lfs -text
