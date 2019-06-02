@@ -1,6 +1,6 @@
-# This common Makefile is included from src/*/Makefile
+# This common Makefile must be included from src/*/Makefile
 
-all: build/main.pdf build/main.epub
+all: build/main.pdf build/main.epub build/main.html
 
 build/main.pdf: main.tex
 	latexmk \
@@ -17,12 +17,14 @@ build/main.epub: main.tex
 	tex4ebook main.tex
 	mv main.epub build/main.epub
 	cp build/main.epub ../../docs/$(FILENAME).epub
+	rm -f *.html
 
 build/main.html: main.tex
-	mkdir -p build
-	tex4ht main.tex
+	mkdir -p build ../../docs/images
+	htlatex main.tex "bookstyle,fn-in"
 	mv main.html build/main.html
 	cp build/main.html ../../docs/$(FILENAME).html
+	-cp images/* ../../docs/images
 
 clean:
 	rm -f *.html \

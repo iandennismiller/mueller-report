@@ -11,7 +11,16 @@ volume-2:
 appendix:
 	cd appendix && make all clean
 
+complete:
+	cd complete && make all clean
+
 spellcheck:
 	cd spellcheck && make spelltest
 
-.PHONY: volume-1 volume-2 appendix spellcheck
+clean:
+	cd volume-1 && make clean
+	cd volume-2 && make clean
+	cd appendix && make clean
+	cd complete && make clean
+
+.PHONY: volume-1 volume-2 appendix spellcheck clean
