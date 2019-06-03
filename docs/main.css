@@ -134,7 +134,7 @@ span.uwave {text-decoration:underline }
 table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
 div.longtable{text-align:center;}
 body { max-width: 40em; margin: 0 auto; line-height: 1.5em; font-size: 14pt; padding: 1em;}
-img { max-width: 40em; max-height: 20em; }
+img { max-width: 100%; max-height: 20em; }
 div.center { line-height: 2em; }
 /* end css.sty */
 
@@ -142,13 +142,4 @@ body { font-family: "Times New Roman", Times, serif; }
 
 @media screen and (max-width: 768px) {
     body { font-size: 12pt !important; }
-    img { max-width: 768px !important; }
-}
-
-@media screen and (max-width: 500px) {
-    img { max-width: 450px !important; }
-}
-
-@media screen and (max-width: 400px) {
-    img { max-width: 350px !important; }
 }
