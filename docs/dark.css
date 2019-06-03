@@ -8,6 +8,10 @@ body {
     text-align: center;
 }
 
+video {
+    width: 640px;
+}
+
 @media screen and (max-width: 768px) {
     body {
         font-size: 12pt !important;
