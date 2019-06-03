@@ -14,6 +14,9 @@ appendix:
 complete:
 	cd complete && make all clean
 
+summaries:
+	cd summaries && make all clean
+
 spellcheck:
 	cd spellcheck && make spelltest
 
@@ -22,23 +25,27 @@ html:
 	cd volume-2 && make build/main.html clean
 	cd appendix && make build/main.html clean
 	cd complete && make build/main.html clean
+	cd summaries && make build/main.html clean
 
 pdf:
 	cd volume-1 && make build/main.pdf clean
 	cd volume-2 && make build/main.pdf clean
 	cd appendix && make build/main.pdf clean
 	cd complete && make build/main.pdf clean
+	cd summaries && make build/main.pdf clean
 
 epub:
 	cd volume-1 && make build/main.epub clean
 	cd volume-2 && make build/main.epub clean
 	cd appendix && make build/main.epub clean
 	cd complete && make build/main.epub clean
+	cd summaries && make build/main.epub clean
 
 clean:
 	cd volume-1 && make clean
 	cd volume-2 && make clean
 	cd appendix && make clean
 	cd complete && make clean
+	cd summaries && make clean
 
-.PHONY: volume-1 volume-2 appendix spellcheck clean html pdf epub
+.PHONY: volume-1 volume-2 appendix spellcheck clean html pdf epub summaries

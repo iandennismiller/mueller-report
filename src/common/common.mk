@@ -22,6 +22,8 @@ build/main.epub: main.tex
 build/main.html: main.tex
 	mkdir -p build ../../docs/images
 	htlatex main.tex "bookstyle,fn-in,charset=utf-8" " -cunihtf -utf8"
+	sed -e 's/\<!-- fn-in,charset=utf-8,html,xhtml --\>/\<meta name="viewport" content="width=device-width, initial-scale=1.0"\>/' main.html > main.html.new
+	mv main.html.new main.html
 	mv main.html build/main.html
 	cp build/main.html ../../docs/$(FILENAME).html
 	-cp images/* ../../docs/images
