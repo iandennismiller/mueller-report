@@ -148,3 +148,7 @@ body { font-family: "Times New Roman", Times, serif; }
 @media screen and (max-width: 500px) {
     img { max-width: 450px !important; }
 }
+
+@media screen and (max-width: 400px) {
+    img { max-width: 350px !important; }
+}
