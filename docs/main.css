@@ -138,5 +138,10 @@ img { max-width: 40em; max-height: 20em; }
 div.center { line-height: 2em; }
 @media screen and (max-width: 768px) {
     body { font-size: 12pt !important; }
+    img { max-width: 768px !important; }
+}
+
+@media screen and (max-width: 500px) {
+    img { max-width: 450px !important; }
 }
 /* end css.sty */
