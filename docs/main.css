@@ -141,6 +141,7 @@ div.center { line-height: 2em; }
 body { font-family: "Times New Roman", Times, serif; }
 
 .redacted {
+    color: #000;
     background-color: #000;
 }
 
