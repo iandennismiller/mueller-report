@@ -136,4 +136,7 @@ div.longtable{text-align:center;}
 body { max-width: 40em; margin: 0 auto; line-height: 1.5em; font-size: 14pt; padding: 1em;}
 img { max-width: 40em; max-height: 20em; }
 div.center { line-height: 2em; }
+@media screen and (max-width: 768px) {
+    body { font-size: 12pt !important; }
+}
 /* end css.sty */
