@@ -1,9 +1,7 @@
-# [Open Source Mueller Report](http://opensourcemuellerreport.com)
+# Open Source Mueller Report
 
-## [Executive Summaries](http://opensourcemuellerreport.com/summary)
-
-The Executive Summaries for Volumes I and II are 26 pages total.
+The [Executive Summaries](http://opensourcemuellerreport.com/summary) for Volumes I and II are 26 pages total.
 
 - [PDF edition](http://opensourcemuellerreport.com/mueller-report-summaries.pdf) - supports full-text search, working table of contents, smaller file size, and other improvements.
-- [ePub edition](http://opensourcemuellerreport.com/mueller-report-summaries.epub) for Kindle, Kobo, and other readers.
+- [ePub edition](http://opensourcemuellerreport.com/mueller-report-summaries.epub) - for Kindle, Kobo, and other readers.
 - [HTML edition](http://opensourcemuellerreport.com/mueller-report-summaries.html) - read online.
