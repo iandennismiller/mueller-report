@@ -24,6 +24,10 @@ build/main.html: main.tex
 	htlatex main.tex "bookstyle,fn-in,charset=utf-8" " -cunihtf -utf8"
 	sed -e 's/\<!-- fn-in,charset=utf-8,html,xhtml --\>/\<meta name="viewport" content="width=device-width, initial-scale=1.0"\>/' main.html > main.html.new
 	mv main.html.new main.html
+	sed -e 's/\<\/body\>/\<script src="redacted.js"\>\<\/script\>\<\/body\>/' main.html > main.html.new
+	mv main.html.new main.html
+	sed -e 's/\<p class="noindent" \>__________\<\/p\>/\<hr width="10%"\>/' main.html > main.html.new
+	mv main.html.new main.html
 	mv main.html build/main.html
 	cp build/main.html ../../docs/$(FILENAME).html
 	-cp images/* ../../docs/images
