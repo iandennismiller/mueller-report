@@ -33,13 +33,27 @@ a.btn:hover {
     body {
         font-size: 12pt !important;
     }
+
     video {
         width: 400px !important;
+    }
+
+    #doc-list {
+        list-style-type: none;
+        padding-left: 0px !important;
+    }
+
+    #doc-list li {
+        padding-bottom: 1em;
     }
 }
 
 @media screen and (max-width: 500px) {
     video {
         width: 320px !important;
+    }
+
+    body {
+        font-size: 11pt !important;
     }
 }
