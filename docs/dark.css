@@ -17,6 +17,18 @@ video {
     width: 640px;
 }
 
+a.btn {
+    border: 1px solid #333;
+    padding: 1px 3px;
+    border-radius: 5px;
+    background: #253241;
+}
+
+a.btn:hover {
+    background: #2f3f51;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
     body {
         font-size: 12pt !important;
