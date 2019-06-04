@@ -1,6 +1,8 @@
 # Mueller Report, Open Source Edition
 
-all: volume-1 volume-2 appendix
+KINDLEBIN=~/Library/Code/KindleGen_Mac_i386_v2_9/kindlegen
+
+all: volume-1 volume-2 appendix complete summaries
 
 volume-1:
 	cd volume-1 && make all clean
@@ -48,4 +50,11 @@ clean:
 	cd complete && make clean
 	cd summaries && make clean
 
-.PHONY: volume-1 volume-2 appendix spellcheck clean html pdf epub summaries
+kindle:
+	-cd ../docs && $(KINDLEBIN) -c2 mueller-report-vol-1.html
+	-cd ../docs && $(KINDLEBIN) -c2 mueller-report-vol-2.html
+	-cd ../docs && $(KINDLEBIN) -c2 mueller-report-appendix.html
+	-cd ../docs && $(KINDLEBIN) -c2 mueller-report.html
+	-cd ../docs && $(KINDLEBIN) -c2 mueller-report-summaries.html
+
+.PHONY: volume-1 volume-2 appendix spellcheck clean html pdf epub kindle summaries
