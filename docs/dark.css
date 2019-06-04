@@ -4,6 +4,10 @@ body {
     font-size: 16pt;
 }
 
+ul {
+    padding-left: 25px;
+}
+
 #footer {
     text-align: center;
     font-size: 10pt;
