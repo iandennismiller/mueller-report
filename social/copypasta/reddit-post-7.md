@@ -5,6 +5,6 @@ The [Open Source Edition](http://opensourcemuellerreport.com) of Volume II is 19
 - [PDF edition](http://opensourcemuellerreport.com/mueller-report-vol-2.pdf) - supports full-text search, working table of contents, smaller file size, and other improvements.
 - [HTML edition](http://opensourcemuellerreport.com/mueller-report-vol-2.html) - read online.
 - [ePub edition](http://opensourcemuellerreport.com/mueller-report-vol-2.epub) - for e-readers and iBooks.
-- [Kindle edition](http://opensourcemuellerreport.com/mueller-report-vol-2.mobi) - for Kindle (.mobi format).
+- [mobi edition](http://opensourcemuellerreport.com/mueller-report-vol-2.mobi) - for Kindle.
 
 http://opensourcemuellerreport.com
