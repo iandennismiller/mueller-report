@@ -2,12 +2,6 @@
 
 **Open Source Mueller Report** is an enhanced edition of the Mueller Report.
 
-- [[PDF]](http://opensourcemuellerreport.com/mueller-report-summaries.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-summaries.epub) [[mobi]](http://opensourcemuellerreport.com/mueller-report-summaries.mobi) [[HTML]](http://opensourcemuellerreport.com/mueller-report-summaries.html) Executive Summaries
-- [[PDF]](http://opensourcemuellerreport.com/mueller-report-vol-1.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-vol-1.epub) [[mobi]](http://opensourcemuellerreport.com/mueller-report-vol-1.mobi) [[HTML]](http://opensourcemuellerreport.com/mueller-report-vol-1.html) Volume I: Russia
-- [[PDF]](http://opensourcemuellerreport.com/mueller-report-vol-2.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-vol-2.epub) [[mobi]](http://opensourcemuellerreport.com/mueller-report-vol-2.mobi) [[HTML]](http://opensourcemuellerreport.com/mueller-report-vol-2.html) Volume II: Obstruction
-- [[PDF]](http://opensourcemuellerreport.com/mueller-report-appendix.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report-appendix.epub) [[mobi]](http://opensourcemuellerreport.com/mueller-report-appendix.mobi) [[HTML]](http://opensourcemuellerreport.com/mueller-report-appendix.html) Appendix
-- [[PDF]](http://opensourcemuellerreport.com/mueller-report.pdf) [[ePub]](http://opensourcemuellerreport.com/mueller-report.epub) [[mobi]](http://opensourcemuellerreport.com/mueller-report.mobi) [[HTML]](http://opensourcemuellerreport.com/mueller-report.html) Complete Report
-
 [![GitHub contributors](https://img.shields.io/github/contributors-anon/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/)
 [![Gitter](https://img.shields.io/gitter/room/iandennismiller/mueller-report.svg)](https://gitter.im/open-source-mueller-report/community)
 [![Build Status](https://travis-ci.org/iandennismiller/mueller-report.svg?branch=master)](https://travis-ci.org/iandennismiller/mueller-report)
