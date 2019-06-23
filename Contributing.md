@@ -129,7 +129,7 @@ The `pdftotext` utility from `poppler` was used to extract all text to a separat
         mueller-report-ocr-2019-04-18.pdf \
         mueller-report-ocr-2019-04-18.txt
 
-The [OCR text product](https://github.com/iandennismiller/mueller-report/blob/master/data/mueller-report-ocr-2019-04-18.txt) is available for download.
+The [OCR text product](https://github.com/iandennismiller/mueller-report/blob/master/media/mueller-report-ocr-2019-04-18.txt) is available for download.
 
 ## Contributor Covenant Code of Conduct
 
