@@ -4,10 +4,10 @@
 
 [![Website](https://img.shields.io/website/http/opensourcemuellerreport.com.svg?up_message=online)](http://opensourcemuellerreport.com)
 [![GitHub contributors](https://img.shields.io/github/stars/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/)
-[![Gitter](https://img.shields.io/gitter/room/iandennismiller/mueller-report.svg)](https://gitter.im/open-source-mueller-report/community)
-[![Subreddit](https://img.shields.io/reddit/subreddit-subscribers/opensourcemueller.svg?style=social)](https://www.reddit.com/r/OpenSourceMueller)
 [![Build Status](https://travis-ci.org/iandennismiller/mueller-report.svg?branch=master)](https://travis-ci.org/iandennismiller/mueller-report)
 [![GitHub issues](https://img.shields.io/github/issues-raw/iandennismiller/mueller-report.svg)](https://github.com/iandennismiller/mueller-report/issues)
+[![Gitter](https://img.shields.io/gitter/room/iandennismiller/mueller-report.svg)](https://gitter.im/open-source-mueller-report/community)
+[![Subreddit](https://img.shields.io/reddit/subreddit-subscribers/opensourcemueller.svg?style=social)](https://www.reddit.com/r/OpenSourceMueller)
 
 ### Discussion
 
