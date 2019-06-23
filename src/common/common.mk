@@ -1,6 +1,6 @@
 # This common Makefile must be included from src/*/Makefile
 
-all: build/main.pdf build/main.epub build/main.html
+all: build/main.pdf build/main.html build/main.epub
 
 build/main.pdf: main.tex
 	latexmk \
