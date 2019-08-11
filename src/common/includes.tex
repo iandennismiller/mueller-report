@@ -71,8 +71,17 @@
 % \usepackage[printwatermark]{xwatermark}
 % \newwatermark[allpages,color=red!20,angle=45,scale=1,xpos=0,ypos=0]{Draft}
 
-% strikeout text
+% strikeout and underline text; https://alexwlchan.net/2017/10/latex-underlines/
 \usepackage[normalem]{ulem}
+\usepackage{contour}
+
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
 
 % wrap text around figures
 \usepackage{wrapfig}
