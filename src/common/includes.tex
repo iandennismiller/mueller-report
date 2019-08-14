@@ -54,16 +54,19 @@
   urlcolor=black
 }
 
-% tables of contents for each chapter
-\usepackage{etoc}
-
 % table of contents items are dotted
 \usepackage{tocloft}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
-% \setlength{\cftsecindent}{0pt}
-% \setlength{\cftsubsecindent}{0pt}
-% \setlength{\cftsubsubsecindent}{0pt}
-% \setlength{\cftparaindent}{0pt}
+\cftsetpnumwidth{2em}
+\cftsetrmarg{2.55em}
+\cftsetindents{section}{0pt}{2em}
+\cftsetindents{subsection}{2em}{1.55em}
+\cftsetindents{subsubsection}{3.55em}{1.55em}
+\cftsetindents{paragraph}{5.1em}{1.55em}
+\cftsetindents{subparagraph}{6.65em}{1.55em}
+
+% tables of contents for each chapter
+\usepackage{etoc}
 
 % watermark
 \usepackage{xcolor}
