@@ -54,6 +54,9 @@
   urlcolor=black
 }
 
+% tables of contents for each chapter
+\usepackage{etoc}
+
 % table of contents items are dotted
 \usepackage{tocloft}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
@@ -92,7 +95,7 @@
 % invisible section heading
 \newcommand\invisiblesection[1]{%
   \refstepcounter{section}%
-  \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
+  \addcontentsline{toc}{section}{#1}%\protect\numberline{\thesection}#1}%
   \sectionmark{#1}}
 
 % verbatim stuff in footnotes
@@ -100,8 +103,8 @@
 \VerbatimFootnotes
 
 % try alternative font
-% \usepackage{kpfonts}
-% \usepackage{microtype}
+\usepackage{kpfonts}
+\usepackage{microtype}
 
 % a little help for unusual names
 \hyphenation{Anti-trust Counter-intelligence Counter-terrorism Mana-fort Wiki-Leaks}

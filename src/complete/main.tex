@@ -10,9 +10,15 @@
 
 \include{title}
 
-\include{table-of-contents}
+\include{table-of-contents} % overview TOC, down to sections
 
-\chapter{Volume I}
+\chapter*{Volume I}
+\label{chapter.1}
+\addcontentsline{toc}{chapter}{\nameref{chapter.1}}
+\etocsetnexttocdepth{subparagraph} % local TOC goes down to subparagraphs
+\vspace{-1cm} % adjust for empty header
+\localtableofcontents
+\cleardoublepage
 
 \include{introduction-1}
 
@@ -28,7 +34,13 @@
 
 \include{decisions}
 
-\chapter{Volume II}
+\chapter*{Volume II}
+\label{chapter.2}
+\addcontentsline{toc}{chapter}{\nameref{chapter.2}}
+\etocsetnexttocdepth{subparagraph} % local TOC goes down to subparagraphs
+\vspace{-1cm} % adjust for empty header
+\localtableofcontents
+\cleardoublepage
 
 \include{introduction-2}
 
@@ -42,7 +54,13 @@
 
 \include{conclusion}
 
-\chapter{Appendices}
+\chapter*{Appendices}
+\label{chapter.3}
+\addcontentsline{toc}{chapter}{\nameref{chapter.3}}
+\etocsetnexttocdepth{subparagraph} % local TOC goes down to subparagraphs
+\vspace{-1cm} % adjust for empty header
+\localtableofcontents
+\cleardoublepage
 
 \include{appendix-a}
 
