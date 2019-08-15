@@ -45,14 +45,6 @@
 
 % table of contents is clickable
 \usepackage[hyphens]{url}
-\usepackage{hyperref}
-\hypersetup{
-  colorlinks,
-  citecolor=black,
-  filecolor=black,
-  linkcolor=black,
-  urlcolor=black
-}
 
 % table of contents items are dotted
 \usepackage{tocloft}
@@ -103,11 +95,21 @@
 
 % verbatim stuff in footnotes
 \usepackage{fancyvrb}
-\VerbatimFootnotes
+\DefineShortVerb{\|}
 
 % try alternative font
 \usepackage{kpfonts}
 \usepackage{microtype}
+
+% always load hyperref last
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=black
+}
 
 % a little help for unusual names
 \hyphenation{Anti-trust Counter-intelligence Counter-terrorism Mana-fort Wiki-Leaks}
