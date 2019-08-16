@@ -21,17 +21,17 @@
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{20pt}
 
-% support Cyrillic
-% \usepackage{fontenc}
+% support Cyrillic; with fallback font Computer Modern Cyrillic
+% https://tex.stackexchange.com/questions/816/cyrillic-in-latex
+\usepackage[T2A,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
 % \usepackage{polyglossia}
 % \setmainlanguage{english}
 % \setotherlanguage{russian}
 % TODO: need cross-platform font with good Unicode support
 % \setmainfont[Ligatures=TeX]{Times}
 % \newfontfamily\cyrillicfont{Times}[Script=Cyrillic]
-
-% no hyphenation
-\hyphenchar\font=-1
 
 % censorship tools
 \usepackage{censor}
@@ -43,7 +43,7 @@
 % horizontal rule
 \newcommand{\hr}{\begin{center} \line(1,0){50} \end{center}}
 
-% table of contents is clickable
+% allow breaks at explicit hyphens in extremely-long-urls
 \usepackage[hyphens]{url}
 
 % table of contents items are dotted
