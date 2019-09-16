@@ -2,9 +2,19 @@
 
 \renewcommand*{\contentsname}{Table of Contents}
 
+\etocsettocdepth{section}
+% the main TOC goes down to sections
+
 \pagenumbering{roman}
 \tableofcontents
-\newpage
+\cleardoublepage
 \pagenumbering{arabic}
 
 \sloppy
+
+\renewcommand*{\contentsname}{}
+
+% redefine the headings of the TOCs to use \section* rather than \chapter*
+\etocarticlestyle
+
+\hypersetup{pageanchor=true}

@@ -21,8 +21,11 @@
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{20pt}
 
-% support Cyrillic
-% \usepackage{fontenc}
+% support Cyrillic; with fallback font Computer Modern Cyrillic
+% https://tex.stackexchange.com/questions/816/cyrillic-in-latex
+\usepackage[T2A,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
 % \usepackage{polyglossia}
 % \setmainlanguage{english}
 % \setotherlanguage{russian}
@@ -30,15 +33,9 @@
 % \setmainfont[Ligatures=TeX]{Times}
 % \newfontfamily\cyrillicfont{Times}[Script=Cyrillic]
 
-% no hyphenation
-\hyphenchar\font=-1
-
 % censorship tools
 \usepackage{censor}
 \def\censordot{.}
-
-% \blacksquare for censored headings
-\usepackage{amssymb}
 
 % enumerate with Roman numerals
 \usepackage{enumerate}
@@ -46,23 +43,22 @@
 % horizontal rule
 \newcommand{\hr}{\begin{center} \line(1,0){50} \end{center}}
 
-% table of contents is clickable
-\usepackage{hyperref}
-\hypersetup{
-  colorlinks,
-  citecolor=black,
-  filecolor=black,
-  linkcolor=black,
-  urlcolor=black
-}
+% allow breaks at explicit hyphens in extremely-long-urls
+\usepackage[hyphens]{url}
 
 % table of contents items are dotted
 \usepackage{tocloft}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
-% \setlength{\cftsecindent}{0pt}
-% \setlength{\cftsubsecindent}{0pt}
-% \setlength{\cftsubsubsecindent}{0pt}
-% \setlength{\cftparaindent}{0pt}
+\cftsetpnumwidth{2em}
+\cftsetrmarg{2.55em plus 1fil}
+\cftsetindents{section}{0pt}{2em}
+\cftsetindents{subsection}{2em}{1.55em}
+\cftsetindents{subsubsection}{3.55em}{1.55em}
+\cftsetindents{paragraph}{5.1em}{1.55em}
+\cftsetindents{subparagraph}{6.65em}{1.55em}
+
+% tables of contents for each chapter
+\usepackage{etoc}
 
 % watermark
 \usepackage{xcolor}
@@ -70,8 +66,17 @@
 % \usepackage[printwatermark]{xwatermark}
 % \newwatermark[allpages,color=red!20,angle=45,scale=1,xpos=0,ypos=0]{Draft}
 
-% strikeout text
+% strikeout and underline text; https://alexwlchan.net/2017/10/latex-underlines/
 \usepackage[normalem]{ulem}
+\usepackage{contour}
+
+\setlength{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
 
 % wrap text around figures
 \usepackage{wrapfig}
@@ -85,6 +90,26 @@
 % invisible section heading
 \newcommand\invisiblesection[1]{%
   \refstepcounter{section}%
-  \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
+  \addcontentsline{toc}{section}{#1}%\protect\numberline{\thesection}#1}%
   \sectionmark{#1}}
 
+% verbatim stuff in footnotes
+\usepackage{fancyvrb}
+\DefineShortVerb{\|}
+
+% try alternative font
+\usepackage{kpfonts}
+\usepackage{microtype}
+
+% always load hyperref last
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=black
+}
+
+% a little help for unusual names
+\hyphenation{Anti-trust Counter-intelligence Counter-terrorism Mana-fort Wiki-Leaks}
